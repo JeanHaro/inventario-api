@@ -1,0 +1,218 @@
+[
+  {
+    "id": 1,
+    "nombre": "Xiaomi 14",
+    "descripcion": "Smartphone flagship de Xiaomi con cámara Leica y procesador Snapdragon 8 Gen 3.",
+    "marca": "Xiaomi",
+    "modelo": "14",
+    "precio": 899,
+    "descuento": 10,
+    "categoria": "tecnologia",
+    "estado": "disponible",
+    "variantes": [
+      {
+        "id": 1,
+        "color": "Negro",
+        "capacidad": "128GB",
+        "stock": 25,
+        "estado": "disponible",
+        "sku": "XIA14-NEG-128",
+        "imagen": "http://localhost:3002/uploads/1779606413313-xiaomi14.webp"
+      },
+      {
+        "id": 2,
+        "color": "Blanco",
+        "capacidad": "256GB",
+        "stock": 0,
+        "estado": "sin_stock",
+        "sku": "XIA14-BLA-256",
+        "precioAdicional": 80,
+        "imagen": null
+      },
+      {
+        "id": 3,
+        "color": "Verde",
+        "capacidad": "128GB",
+        "stock": 0,
+        "estado": "sin_stock",
+        "sku": "XIA14-VER-128",
+        "imagen": null
+      }
+    ],
+    "etiquetas": [
+      "nuevo",
+      "destacado",
+      "oferta"
+    ],
+    "creadoEn": "2025-01-10T08:00:00.000Z",
+    "actualizadoEn": "2026-06-21T22:42:46.215Z",
+    "imagenes": [
+      "http://localhost:3002/uploads/1779082325550-profile.jpg",
+      "http://localhost:3002/uploads/1779082325551-profile-2.jpg"
+    ]
+  },
+  {
+    "id": 2,
+    "nombre": "Lavadora Mabe",
+    "descripcion": "Lavadora de carga frontal con tecnología de ahorro de agua y energía.",
+    "marca": "Mabe",
+    "modelo": "LT12CWB",
+    "precio": 650,
+    "categoria": "hogar",
+    "estado": "disponible",
+    "variantes": [
+      {
+        "id": 1,
+        "nombre": "10kg",
+        "capacidad": "10kg",
+        "stock": 5,
+        "estado": "disponible",
+        "sku": "MAB-LT10-BLA"
+      },
+      {
+        "id": 2,
+        "nombre": "12kg",
+        "capacidad": "12kg",
+        "stock": 3,
+        "estado": "disponible",
+        "sku": "MAB-LT12-BLA",
+        "precioAdicional": 120
+      }
+    ],
+    "etiquetas": [
+      "hogar",
+      "electrodomestico"
+    ],
+    "creadoEn": "2025-02-15T09:00:00.000Z",
+    "actualizadoEn": "2026-05-31T00:50:11.208Z"
+  },
+  {
+    "id": 3,
+    "nombre": "Camiseta Básica",
+    "descripcion": "Camiseta 100% algodón peinado, corte regular.",
+    "marca": "StudioBasic",
+    "precio": 25,
+    "categoria": "ropa",
+    "estado": "disponible",
+    "variantes": [
+      {
+        "id": 1,
+        "talla": "S",
+        "color": "Negro",
+        "stock": 20,
+        "estado": "disponible",
+        "sku": "CAM-NEG-S"
+      },
+      {
+        "id": 2,
+        "talla": "M",
+        "color": "Negro",
+        "stock": 18,
+        "estado": "disponible",
+        "sku": "CAM-NEG-M"
+      },
+      {
+        "id": 3,
+        "talla": "L",
+        "color": "Negro",
+        "stock": 0,
+        "estado": "sin_stock",
+        "sku": "CAM-NEG-L"
+      },
+      {
+        "id": 4,
+        "talla": "S",
+        "color": "Blanco",
+        "stock": 12,
+        "estado": "disponible",
+        "sku": "CAM-BLA-S"
+      },
+      {
+        "id": 5,
+        "talla": "M",
+        "color": "Blanco",
+        "stock": 7,
+        "estado": "disponible",
+        "sku": "CAM-BLA-M"
+      }
+    ],
+    "etiquetas": [
+      "basico",
+      "casual"
+    ],
+    "creadoEn": "2025-03-01T10:00:00.000Z",
+    "actualizadoEn": "2025-05-05T16:00:00.000Z"
+  },
+  {
+    "id": 4,
+    "nombre": "Aceite de Oliva Extra Virgen",
+    "descripcion": "Aceite de oliva extra virgen de primera presión en frío, 500ml.",
+    "marca": "Carbonell",
+    "precio": 12,
+    "categoria": "alimentos",
+    "estado": "disponible",
+    "variantes": [
+      {
+        "id": 1,
+        "nombre": "500ml",
+        "capacidad": "500ml",
+        "stock": 9,
+        "estado": "disponible",
+        "sku": "ACE-500ML"
+      },
+      {
+        "id": 2,
+        "nombre": "1L",
+        "capacidad": "1L",
+        "stock": 4,
+        "estado": "disponible",
+        "sku": "ACE-1L",
+        "precioAdicional": 10
+      }
+    ],
+    "etiquetas": [
+      "organico",
+      "importado"
+    ],
+    "creadoEn": "2025-01-20T07:00:00.000Z",
+    "actualizadoEn": "2025-05-08T09:00:00.000Z"
+  },
+  {
+    "id": 5,
+    "nombre": "Xiaomi 14 Pro",
+    "descripcion": "Versión Pro del Xiaomi 14 con pantalla LTPO y batería de 5000mAh.",
+    "marca": "Xiaomi",
+    "modelo": "14 Pro",
+    "precio": 1099,
+    "categoria": "tecnologia",
+    "estado": "proximamente",
+    "variantes": [
+      {
+        "id": 1,
+        "color": "Negro",
+        "capacidad": "256GB",
+        "stock": 0,
+        "estado": "reservado",
+        "sku": "XIA14PRO-NEG-256"
+      }
+    ],
+    "etiquetas": [
+      "nuevo",
+      "proximamente",
+      "premium"
+    ],
+    "creadoEn": "2025-05-01T08:00:00.000Z",
+    "actualizadoEn": "2025-05-01T08:00:00.000Z"
+  },
+  {
+    "nombre": "Samsung Galaxy S24",
+    "marca": "Samsung",
+    "precio": 950,
+    "categoria": "tecnologia",
+    "estado": "agotado",
+    "variantes": [],
+    "id": 6,
+    "creadoEn": "2026-05-18T02:40:13.925Z",
+    "actualizadoEn": "2026-06-20T04:57:13.274Z"
+  }
+]

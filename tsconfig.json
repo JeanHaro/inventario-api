@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "rootDir": "./src/",
+    "outDir": "./dist",
+
+    "module": "commonjs", 
+    "target": "es2022",
+
+    // Other Outputs
+    "sourceMap": true,
+    "removeComments": true, 
+    "esModuleInterop": true,
+
+    // Style Options
+    "noImplicitAny": true, 
+    "strictNullChecks": true, 
+
+    // Recommended Options
+    "strict": true, 
+    "types": ["node"]
+  },
+  "include": [
+    "src/"
+  ],
+  "exclude": [
+    "node_modules/",
+  ]
+}

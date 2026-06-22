@@ -1,0 +1,621 @@
+[
+  {
+    "id": "notif-001",
+    "type": "critical",
+    "title": "Stock agotado — Camiseta Básica Negra L",
+    "description": "La variante CAM-NEG-L tiene 0 unidades. Ventas bloqueadas automáticamente.",
+    "badges": [
+      "Crítica",
+      "Sin stock"
+    ],
+    "timestamp": "2025-05-09T10:15:00.000Z",
+    "isRead": false,
+    "action": {
+      "type": "navigate",
+      "route": [
+        "products",
+        "3"
+      ]
+    }
+  },
+  {
+    "id": "notif-002",
+    "type": "warning",
+    "title": "Stock bajo — Aceite de Oliva 1L",
+    "description": "La variante ACE-1L tiene solo 4 unidades. Punto de reorden recomendado: 10.",
+    "badges": [
+      "Alerta",
+      "Stock bajo"
+    ],
+    "timestamp": "2025-05-09T09:30:00.000Z",
+    "isRead": false,
+    "action": {
+      "type": "navigate",
+      "route": [
+        "products",
+        "4"
+      ]
+    }
+  },
+  {
+    "id": "notif-003",
+    "type": "movements",
+    "title": "Nuevo producto registrado — Xiaomi 14 Pro",
+    "description": "El producto Xiaomi 14 Pro fue agregado al catálogo con estado 'próximamente'.",
+    "badges": [
+      "Movimiento",
+      "Entrada"
+    ],
+    "timestamp": "2025-05-08T14:00:00.000Z",
+    "isRead": false,
+    "action": {
+      "type": "navigate",
+      "route": [
+        "products",
+        "5"
+      ]
+    }
+  },
+  {
+    "id": "notif-004",
+    "type": "confirmed",
+    "title": "Producto activado — Xiaomi 14",
+    "description": "El Xiaomi 14 pasó a estado 'disponible' y ya aparece en el catálogo.",
+    "badges": [
+      "Confirmada"
+    ],
+    "timestamp": "2025-05-07T11:00:00.000Z",
+    "isRead": true,
+    "action": {
+      "type": "navigate",
+      "route": [
+        "products",
+        "1"
+      ]
+    }
+  },
+  {
+    "id": "notif-005",
+    "type": "system",
+    "title": "Reporte mensual generado",
+    "description": "Reporte de inventario Mayo 2025 procesado. 5 productos analizados.",
+    "badges": [
+      "Sistema",
+      "Reporte"
+    ],
+    "timestamp": "2025-05-01T08:00:00.000Z",
+    "isRead": true,
+    "action": {
+      "type": "none"
+    }
+  },
+  {
+    "type": "system",
+    "title": "Reporte generado - Reporte General de Inventario",
+    "description": "El reporte fue procesado exitosamente. 5 productos analizados.",
+    "badges": [
+      "Sistema",
+      "Reporte"
+    ],
+    "action": {
+      "type": "none"
+    },
+    "id": "notif-006",
+    "timestamp": "2026-05-18T02:38:10.171Z",
+    "isRead": false
+  },
+  {
+    "type": "system",
+    "title": "Reporte generado - Reporte de Stock Bajo ( umbral: 10 unidades )",
+    "description": "El reporte fue procesado exitosamente. 4 productos analizados.",
+    "badges": [
+      "Sistema",
+      "Reporte"
+    ],
+    "action": {
+      "type": "none"
+    },
+    "id": "notif-007",
+    "timestamp": "2026-05-18T02:38:30.538Z",
+    "isRead": false
+  },
+  {
+    "type": "movements",
+    "title": "Nuevo producto registrado - Samsung Galaxy S24",
+    "description": "Èl producto fue agregado al catálogo con estado 'disponible'. Marca: Samsung.",
+    "badges": [
+      "Movimiento",
+      "Entrada"
+    ],
+    "action": {
+      "type": "navigate",
+      "route": [
+        "products",
+        "6"
+      ]
+    },
+    "id": "notif-008",
+    "timestamp": "2026-05-18T02:40:13.926Z",
+    "isRead": false
+  },
+  {
+    "type": "critical",
+    "title": "Stock agotado - Xiaomi 14 (Samsung Galaxy S24)",
+    "description": "La variante XIA14-NEG-128 tiene 0 unidades. Ventas bloqueadas automáticamente.",
+    "badges": [
+      "Critica",
+      "Sin stock"
+    ],
+    "action": {
+      "type": "navigate",
+      "route": [
+        "products",
+        "1"
+      ]
+    },
+    "id": "notif-009",
+    "timestamp": "2026-05-18T02:43:55.888Z",
+    "isRead": false
+  },
+  {
+    "type": "critical",
+    "title": "Stock agotado - Xiaomi 14 (Negro)",
+    "description": "La variante XIA14-NEG-128 tiene 0 unidades. Ventas bloqueadas automáticamente.",
+    "badges": [
+      "Critica",
+      "Sin stock"
+    ],
+    "action": {
+      "type": "navigate",
+      "route": [
+        "products",
+        "1"
+      ]
+    },
+    "id": "notif-010",
+    "timestamp": "2026-05-18T03:24:33.378Z",
+    "isRead": false
+  },
+  {
+    "type": "critical",
+    "title": "Stock agotado - Xiaomi 14 (Blanco)",
+    "description": "La variante XIA14-BLA-256 tiene 0 unidades. Ventas bloqueadas automáticamente.",
+    "badges": [
+      "Critica",
+      "Sin stock"
+    ],
+    "action": {
+      "type": "navigate",
+      "route": [
+        "products",
+        "1"
+      ]
+    },
+    "id": "notif-011",
+    "timestamp": "2026-05-18T03:26:00.717Z",
+    "isRead": false
+  },
+  {
+    "type": "critical",
+    "title": "Stock agotado - Xiaomi 14 (Verde)",
+    "description": "La variante XIA14-VER-128 tiene 0 unidades. Ventas bloqueadas automáticamente.",
+    "badges": [
+      "Critica",
+      "Sin stock"
+    ],
+    "action": {
+      "type": "navigate",
+      "route": [
+        "products",
+        "1"
+      ]
+    },
+    "id": "notif-012",
+    "timestamp": "2026-05-18T03:26:13.215Z",
+    "isRead": false
+  },
+  {
+    "type": "movements",
+    "title": "Recepción confirmada - Xiaomi 14 (Negro)",
+    "description": "Se ingresaron 20 unidades. Stock actual: 20.",
+    "badges": [
+      "Movimiento",
+      "Entrada",
+      "Recepción"
+    ],
+    "action": {
+      "type": "navigate",
+      "route": [
+        "products",
+        "1"
+      ]
+    },
+    "id": "notif-013",
+    "timestamp": "2026-05-18T03:27:50.581Z",
+    "isRead": false
+  },
+  {
+    "type": "movements",
+    "title": "Recepción confirmada - Xiaomi 14 (Negro)",
+    "description": "Se ingresaron 5 unidades. Stock actual: 25.",
+    "badges": [
+      "Movimiento",
+      "Entrada",
+      "Recepción"
+    ],
+    "action": {
+      "type": "navigate",
+      "route": [
+        "products",
+        "1"
+      ]
+    },
+    "id": "notif-014",
+    "timestamp": "2026-05-30T19:37:39.345Z",
+    "isRead": false
+  },
+  {
+    "type": "confirmed",
+    "title": "Producto descontinuado - Xiaomi 14",
+    "description": "El producto fue marcado como descontinuado y salió del catálogo activo.",
+    "badges": [
+      "Confirmada",
+      "Descontinuado"
+    ],
+    "action": {
+      "type": "none"
+    },
+    "id": "notif-015",
+    "timestamp": "2026-05-31T00:49:31.165Z",
+    "isRead": false
+  },
+  {
+    "type": "confirmed",
+    "title": "Producto activado - Xiaomi 14",
+    "description": "El producto pasó a estado 'disponible' y ya aparece en el catálogo.",
+    "badges": [
+      "Confirmada",
+      "Activado"
+    ],
+    "action": {
+      "type": "navigate",
+      "route": [
+        "products",
+        "1"
+      ]
+    },
+    "id": "notif-016",
+    "timestamp": "2026-05-31T00:49:36.628Z",
+    "isRead": false
+  },
+  {
+    "type": "confirmed",
+    "title": "Producto descontinuado - Lavadora Mabe",
+    "description": "El producto fue marcado como descontinuado y salió del catálogo activo.",
+    "badges": [
+      "Confirmada",
+      "Descontinuado"
+    ],
+    "action": {
+      "type": "none"
+    },
+    "id": "notif-017",
+    "timestamp": "2026-05-31T00:49:42.065Z",
+    "isRead": false
+  },
+  {
+    "type": "confirmed",
+    "title": "Producto descontinuado - Xiaomi 14",
+    "description": "El producto fue marcado como descontinuado y salió del catálogo activo.",
+    "badges": [
+      "Confirmada",
+      "Descontinuado"
+    ],
+    "action": {
+      "type": "none"
+    },
+    "id": "notif-018",
+    "timestamp": "2026-05-31T00:49:45.145Z",
+    "isRead": false
+  },
+  {
+    "type": "confirmed",
+    "title": "Producto activado - Lavadora Mabe",
+    "description": "El producto pasó a estado 'disponible' y ya aparece en el catálogo.",
+    "badges": [
+      "Confirmada",
+      "Activado"
+    ],
+    "action": {
+      "type": "navigate",
+      "route": [
+        "products",
+        "2"
+      ]
+    },
+    "id": "notif-019",
+    "timestamp": "2026-05-31T00:49:49.545Z",
+    "isRead": false
+  },
+  {
+    "type": "confirmed",
+    "title": "Producto activado - Xiaomi 14",
+    "description": "El producto pasó a estado 'disponible' y ya aparece en el catálogo.",
+    "badges": [
+      "Confirmada",
+      "Activado"
+    ],
+    "action": {
+      "type": "navigate",
+      "route": [
+        "products",
+        "1"
+      ]
+    },
+    "id": "notif-020",
+    "timestamp": "2026-05-31T00:49:51.527Z",
+    "isRead": false
+  },
+  {
+    "type": "confirmed",
+    "title": "Producto descontinuado - Xiaomi 14",
+    "description": "El producto fue marcado como descontinuado y salió del catálogo activo.",
+    "badges": [
+      "Confirmada",
+      "Descontinuado"
+    ],
+    "action": {
+      "type": "none"
+    },
+    "id": "notif-021",
+    "timestamp": "2026-05-31T00:49:55.114Z",
+    "isRead": false
+  },
+  {
+    "type": "confirmed",
+    "title": "Producto descontinuado - Lavadora Mabe",
+    "description": "El producto fue marcado como descontinuado y salió del catálogo activo.",
+    "badges": [
+      "Confirmada",
+      "Descontinuado"
+    ],
+    "action": {
+      "type": "none"
+    },
+    "id": "notif-022",
+    "timestamp": "2026-05-31T00:50:05.212Z",
+    "isRead": false
+  },
+  {
+    "type": "confirmed",
+    "title": "Producto activado - Xiaomi 14",
+    "description": "El producto pasó a estado 'disponible' y ya aparece en el catálogo.",
+    "badges": [
+      "Confirmada",
+      "Activado"
+    ],
+    "action": {
+      "type": "navigate",
+      "route": [
+        "products",
+        "1"
+      ]
+    },
+    "id": "notif-023",
+    "timestamp": "2026-05-31T00:50:11.207Z",
+    "isRead": false
+  },
+  {
+    "type": "confirmed",
+    "title": "Producto activado - Lavadora Mabe",
+    "description": "El producto pasó a estado 'disponible' y ya aparece en el catálogo.",
+    "badges": [
+      "Confirmada",
+      "Activado"
+    ],
+    "action": {
+      "type": "navigate",
+      "route": [
+        "products",
+        "2"
+      ]
+    },
+    "id": "notif-024",
+    "timestamp": "2026-05-31T00:50:11.208Z",
+    "isRead": false
+  },
+  {
+    "type": "movements",
+    "title": "Recepción confirmada - Xiaomi 14 (Blanco)",
+    "description": "Se ingresaron 5 unidades. Stock actual: 5.",
+    "badges": [
+      "Movimiento",
+      "Entrada",
+      "Recepción"
+    ],
+    "action": {
+      "type": "navigate",
+      "route": [
+        "products",
+        "1"
+      ]
+    },
+    "id": "notif-025",
+    "timestamp": "2026-05-31T01:15:13.325Z",
+    "isRead": false
+  },
+  {
+    "type": "critical",
+    "title": "Stock agotado - Xiaomi 14 (Blanco)",
+    "description": "La variante XIA14-BLA-256 tiene 0 unidades. Ventas bloqueadas automáticamente.",
+    "badges": [
+      "Critica",
+      "Sin stock"
+    ],
+    "action": {
+      "type": "navigate",
+      "route": [
+        "products",
+        "1"
+      ]
+    },
+    "id": "notif-026",
+    "timestamp": "2026-05-31T01:15:22.126Z",
+    "isRead": false
+  },
+  {
+    "type": "confirmed",
+    "title": "Producto descontinuado - Xiaomi 14",
+    "description": "El producto fue marcado como descontinuado y salió del catálogo activo.",
+    "badges": [
+      "Confirmada",
+      "Descontinuado"
+    ],
+    "action": {
+      "type": "none"
+    },
+    "id": "notif-027",
+    "timestamp": "2026-05-31T02:00:10.883Z",
+    "isRead": false
+  },
+  {
+    "type": "confirmed",
+    "title": "Producto activado - Xiaomi 14",
+    "description": "El producto pasó a estado 'disponible' y ya aparece en el catálogo.",
+    "badges": [
+      "Confirmada",
+      "Activado"
+    ],
+    "action": {
+      "type": "navigate",
+      "route": [
+        "products",
+        "1"
+      ]
+    },
+    "id": "notif-028",
+    "timestamp": "2026-05-31T02:00:13.359Z",
+    "isRead": false
+  },
+  {
+    "type": "confirmed",
+    "title": "Producto descontinuado - Xiaomi 14",
+    "description": "El producto fue marcado como descontinuado y salió del catálogo activo.",
+    "badges": [
+      "Confirmada",
+      "Descontinuado"
+    ],
+    "action": {
+      "type": "none"
+    },
+    "id": "notif-029",
+    "timestamp": "2026-06-20T04:56:45.366Z",
+    "isRead": false
+  },
+  {
+    "type": "confirmed",
+    "title": "Producto activado - Xiaomi 14",
+    "description": "El producto pasó a estado 'disponible' y ya aparece en el catálogo.",
+    "badges": [
+      "Confirmada",
+      "Activado"
+    ],
+    "action": {
+      "type": "navigate",
+      "route": [
+        "products",
+        "1"
+      ]
+    },
+    "id": "notif-030",
+    "timestamp": "2026-06-20T04:56:53.270Z",
+    "isRead": false
+  },
+  {
+    "type": "confirmed",
+    "title": "Producto descontinuado - Samsung Galaxy S24",
+    "description": "El producto fue marcado como descontinuado y salió del catálogo activo.",
+    "badges": [
+      "Confirmada",
+      "Descontinuado"
+    ],
+    "action": {
+      "type": "none"
+    },
+    "id": "notif-031",
+    "timestamp": "2026-06-20T04:57:11.462Z",
+    "isRead": false
+  },
+  {
+    "type": "confirmed",
+    "title": "Producto activado - Xiaomi 14",
+    "description": "El producto pasó a estado 'disponible' y ya aparece en el catálogo.",
+    "badges": [
+      "Confirmada",
+      "Activado"
+    ],
+    "action": {
+      "type": "navigate",
+      "route": [
+        "products",
+        "1"
+      ]
+    },
+    "id": "notif-032",
+    "timestamp": "2026-06-21T02:05:48.145Z",
+    "isRead": false
+  },
+  {
+    "type": "confirmed",
+    "title": "Producto descontinuado - Xiaomi 14",
+    "description": "El producto fue marcado como descontinuado y salió del catálogo activo.",
+    "badges": [
+      "Confirmada",
+      "Descontinuado"
+    ],
+    "action": {
+      "type": "none"
+    },
+    "id": "notif-033",
+    "timestamp": "2026-06-21T02:05:52.000Z",
+    "isRead": false
+  },
+  {
+    "type": "confirmed",
+    "title": "Producto activado - Xiaomi 14",
+    "description": "El producto pasó a estado 'disponible' y ya aparece en el catálogo.",
+    "badges": [
+      "Confirmada",
+      "Activado"
+    ],
+    "action": {
+      "type": "navigate",
+      "route": [
+        "products",
+        "1"
+      ]
+    },
+    "id": "notif-034",
+    "timestamp": "2026-06-21T02:05:58.213Z",
+    "isRead": false
+  },
+  {
+    "type": "confirmed",
+    "title": "Producto activado - Xiaomi 14",
+    "description": "El producto pasó a estado 'disponible' y ya aparece en el catálogo.",
+    "badges": [
+      "Confirmada",
+      "Activado"
+    ],
+    "action": {
+      "type": "navigate",
+      "route": [
+        "products",
+        "1"
+      ]
+    },
+    "id": "notif-035",
+    "timestamp": "2026-06-21T21:10:18.653Z",
+    "isRead": false
+  }
+]

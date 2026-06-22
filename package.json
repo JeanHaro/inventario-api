@@ -1,0 +1,33 @@
+{
+  "name": "inventario-api",
+  "version": "0.1.0",
+  "description": "API REST construida con TypeScript + Express para gestionar un sistema de inventario completo con productos, variantes, imágenes, reportes y notificaciones automáticas.",
+  "license": "MIT",
+  "author": "Jean Haro",
+  "type": "commonjs",
+  "main": "dist/api/app.js",
+  "scripts": {
+    "start": "ts-node src/api/app.ts",
+    "build": "tsc",
+    "build:watch": "tsc -w"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "11.1.1",
+      "onFail": "download"
+    }
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "ts-node": "^10.9.2",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/multer": "^2.1.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "multer": "^2.1.1"
+  }
+}
