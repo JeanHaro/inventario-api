@@ -1,4 +1,4 @@
-# 🏪 Inventario API — Proyecto 8
+# Inventario API 
 
 API REST construida con **TypeScript + Express** para gestionar un sistema de inventario completo  
 con productos, variantes, imágenes, reportes y notificaciones automáticas.
@@ -8,10 +8,10 @@ Diseñada para conectarse al proyecto Angular **inventario-app** (proyecto3).
 
 ---
 
-## 📁 Estructura del proyecto
+## Estructura del proyecto
 
 ```
-proyecto8/
+src/
 ├── types/
 │   ├── product.types.ts          ← Producto, Variante, Categoría, Estados, Reportes
 │   └── notification.types.ts     ← Notification, NotificationType, NotificationAction
@@ -41,19 +41,18 @@ proyecto8/
 
 ---
 
-## 🚀 Cómo ejecutar
+## Cómo ejecutar
 
-Desde la raíz de `04-practica-claude`:
 
 ```bash
-npx ts-node proyectos/proyecto8/api/app.ts
+pnpm start
 ```
 
 API disponible en: **http://localhost:3002**
 
 ---
 
-## 🔑 Conceptos TypeScript practicados
+## Conceptos TypeScript practicados
 
 | Concepto | Dónde se usa |
 |---|---|
@@ -71,7 +70,7 @@ API disponible en: **http://localhost:3002**
 
 ---
 
-## ⚙️ Middlewares
+## Middlewares
 
 | Middleware | Función |
 |---|---|
@@ -83,7 +82,7 @@ API disponible en: **http://localhost:3002**
 
 ---
 
-## 🗄️ Modelos de datos
+## Modelos de datos
 
 ### Valores válidos
 ```
@@ -100,7 +99,7 @@ NotificationType: critical | warning | movements | confirmed | system
 
 ---
 
-## 📡 Endpoints completos
+## Endpoints completos
 
 ### Base
 ```
@@ -109,7 +108,7 @@ GET  /                              → Estado de la API + lista de recursos
 
 ---
 
-### 🛍️ Productos — `/products`
+### Productos — `/products`
 
 #### Consultas con filtros
 ```
@@ -247,7 +246,7 @@ GET http://localhost:3002/uploads/[nombre-del-archivo]
 
 ---
 
-### 📊 Reportes — `/reports`
+### Reportes — `/reports`
 
 ```
 GET  /reports                           → Reporte general (todos los productos)
@@ -261,7 +260,7 @@ GET  /reports/estado/:estado            → Reporte filtrado por estado
 
 ---
 
-### 🔔 Notificaciones — `/notifications`
+### Notificaciones — `/notifications`
 
 ```
 GET    /notifications                           → Todas las notificaciones
@@ -280,7 +279,7 @@ DELETE /notifications/:id                       → Eliminar notificación
 
 ---
 
-## 🔔 Mapa de triggers automáticos de notificaciones
+## Mapa de triggers automáticos de notificaciones
 
 | Acción | Tipo notificación |
 |---|---|
@@ -297,7 +296,7 @@ DELETE /notifications/:id                       → Eliminar notificación
 
 ---
 
-## ⚠️ Códigos de respuesta HTTP
+## Códigos de respuesta HTTP
 
 | Código | Significado |
 |---|---|
@@ -308,7 +307,7 @@ DELETE /notifications/:id                       → Eliminar notificación
 
 ---
 
-## 📝 Notas técnicas
+## Notas técnicas
 
 - **Persistencia en disco** — `products.json` y `notifications.json` sobreviven al reinicio
 - **CORS habilitado** — acepta peticiones desde cualquier origen (`cors()` sin restricciones)
