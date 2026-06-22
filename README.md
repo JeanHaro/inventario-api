@@ -3,8 +3,8 @@
 API REST construida con **TypeScript + Express** para gestionar un sistema de inventario completo  
 con productos, variantes, imágenes, reportes y notificaciones automáticas.
 
-Proyecto de práctica de la **Objetos y Tipos Personalizados en TypeScript**.  
-Diseñada para conectarse al proyecto Angular **inventario-app** (proyecto3).
+Proyecto de práctica de **Objetos y Tipos Personalizados en TypeScript**.  
+Diseñada para conectarse al proyecto Angular **inventario-app**.
 
 ---
 
