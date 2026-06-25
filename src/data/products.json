@@ -5,7 +5,7 @@
     "descripcion": "Smartphone flagship de Xiaomi con cámara Leica y procesador Snapdragon 8 Gen 3.",
     "marca": "Xiaomi",
     "modelo": "14",
-    "precio": 899,
+    "precio": 900,
     "descuento": 10,
     "categoria": "tecnologia",
     "estado": "disponible",
@@ -45,10 +45,10 @@
       "oferta"
     ],
     "creadoEn": "2025-01-10T08:00:00.000Z",
-    "actualizadoEn": "2026-06-21T22:42:46.215Z",
+    "actualizadoEn": "2026-06-25T20:38:21.306Z",
     "imagenes": [
       "http://localhost:3002/uploads/1779082325550-profile.jpg",
-      "http://localhost:3002/uploads/1779082325551-profile-2.jpg"
+      "http://localhost:3002/uploads/1782238152330-profile-2.jpg"
     ]
   },
   {
@@ -175,7 +175,8 @@
       "importado"
     ],
     "creadoEn": "2025-01-20T07:00:00.000Z",
-    "actualizadoEn": "2025-05-08T09:00:00.000Z"
+    "actualizadoEn": "2026-06-25T16:35:45.635Z",
+    "descuento": 0
   },
   {
     "id": 5,
@@ -192,7 +193,7 @@
         "color": "Negro",
         "capacidad": "256GB",
         "stock": 0,
-        "estado": "reservado",
+        "estado": "sin_stock",
         "sku": "XIA14PRO-NEG-256"
       }
     ],
@@ -202,7 +203,7 @@
       "premium"
     ],
     "creadoEn": "2025-05-01T08:00:00.000Z",
-    "actualizadoEn": "2025-05-01T08:00:00.000Z"
+    "actualizadoEn": "2026-06-25T20:41:22.913Z"
   },
   {
     "nombre": "Samsung Galaxy S24",

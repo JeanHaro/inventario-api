@@ -617,5 +617,122 @@
     "id": "notif-035",
     "timestamp": "2026-06-21T21:10:18.653Z",
     "isRead": false
+  },
+  {
+    "type": "critical",
+    "title": "Stock agotado - Xiaomi 14 (Negro)",
+    "description": "La variante XIA14-NEG-128 tiene 0 unidades. Ventas bloqueadas automáticamente.",
+    "badges": [
+      "Critica",
+      "Sin stock"
+    ],
+    "action": {
+      "type": "navigate",
+      "route": [
+        "products",
+        "1"
+      ]
+    },
+    "id": "notif-036",
+    "timestamp": "2026-06-25T19:06:18.327Z",
+    "isRead": false
+  },
+  {
+    "type": "movements",
+    "title": "Recepción confirmada - Xiaomi 14 (Negro)",
+    "description": "Se ingresaron 25 unidades. Stock actual: 25.",
+    "badges": [
+      "Movimiento",
+      "Entrada",
+      "Recepción"
+    ],
+    "action": {
+      "type": "navigate",
+      "route": [
+        "products",
+        "1"
+      ]
+    },
+    "id": "notif-037",
+    "timestamp": "2026-06-25T19:06:31.197Z",
+    "isRead": false
+  },
+  {
+    "type": "critical",
+    "title": "Stock agotado - Xiaomi 14 (Negro)",
+    "description": "La variante XIA14-NEG-128 tiene 0 unidades. Ventas bloqueadas automáticamente.",
+    "badges": [
+      "Critica",
+      "Sin stock"
+    ],
+    "action": {
+      "type": "navigate",
+      "route": [
+        "products",
+        "1"
+      ]
+    },
+    "id": "notif-038",
+    "timestamp": "2026-06-25T20:38:10.716Z",
+    "isRead": false
+  },
+  {
+    "type": "movements",
+    "title": "Recepción confirmada - Xiaomi 14 (Negro)",
+    "description": "Se ingresaron 25 unidades. Stock actual: 25.",
+    "badges": [
+      "Movimiento",
+      "Entrada",
+      "Recepción"
+    ],
+    "action": {
+      "type": "navigate",
+      "route": [
+        "products",
+        "1"
+      ]
+    },
+    "id": "notif-039",
+    "timestamp": "2026-06-25T20:38:21.306Z",
+    "isRead": false
+  },
+  {
+    "type": "movements",
+    "title": "Recepción confirmada - Xiaomi 14 Pro (Negro)",
+    "description": "Se ingresaron 20 unidades. Stock actual: 20.",
+    "badges": [
+      "Movimiento",
+      "Entrada",
+      "Recepción"
+    ],
+    "action": {
+      "type": "navigate",
+      "route": [
+        "products",
+        "5"
+      ]
+    },
+    "id": "notif-040",
+    "timestamp": "2026-06-25T20:41:14.887Z",
+    "isRead": false
+  },
+  {
+    "type": "critical",
+    "title": "Stock agotado - Xiaomi 14 Pro (Negro)",
+    "description": "La variante XIA14PRO-NEG-256 tiene 0 unidades. Ventas bloqueadas automáticamente.",
+    "badges": [
+      "Critica",
+      "Sin stock"
+    ],
+    "action": {
+      "type": "navigate",
+      "route": [
+        "products",
+        "5"
+      ]
+    },
+    "id": "notif-041",
+    "timestamp": "2026-06-25T20:41:22.913Z",
+    "isRead": false
   }
 ]

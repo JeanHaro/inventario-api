@@ -525,6 +525,9 @@ export const updateProductVariante = ( req: Request, res: Response ): void => {
         variant => variant.id === varianteId
     )!;
 
+    // Guardamos el producto final
+    let productoFinal = updated;
+
     // TRIGGERS de stock — solo si el stock cambió
     if ( body.stock !== undefined ) {
         const stockAnterior = varianteAnterior.stock;
@@ -543,14 +546,14 @@ export const updateProductVariante = ( req: Request, res: Response ): void => {
         const estadoAnteriorProducto = productoAnterior.estado;
 
         if ( todasAgotadas && estadoAnteriorProducto === 'disponible' ) {
-            updateProducto(productoId, { estado: 'agotado' });
+            productoFinal = updateProducto(productoId, { estado: 'agotado' }) ?? updated;
             
         } else if ( !todasAgotadas && estadoAnteriorProducto === 'agotado' ) {
-            updateProducto(productoId, { estado: 'disponible' });
+            productoFinal = updateProducto(productoId, { estado: 'disponible' }) ?? updated;
         }
     }
 
-    res.json(updated);
+    res.json(productoFinal);
 }
 
 // DELETE /products/:id/variantes/:varianteId
