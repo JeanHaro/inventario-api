@@ -230,6 +230,16 @@ export const getVariantesBajas = ( producto: Producto, umbral: number = 10 ): Va
     );
 }
 
-
+// Verificar si el SKU ya existe en alguna variante de cualquier producto
+export const isSkuUnique = (
+    sku: string, 
+    excludeVarianteId?: number 
+): boolean => {
+    return !getProducts().some( product =>
+        product.variantes.some( variante =>
+            variante.sku === sku && variante.id !== excludeVarianteId
+        )
+    );
+}
 
 

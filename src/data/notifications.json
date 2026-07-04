@@ -734,5 +734,282 @@
     "id": "notif-041",
     "timestamp": "2026-06-25T20:41:22.913Z",
     "isRead": false
+  },
+  {
+    "type": "critical",
+    "title": "Stock agotado - Xiaomi 14 (Negro)",
+    "description": "La variante XIA14-NEG-128 tiene 0 unidades. Ventas bloqueadas automáticamente.",
+    "badges": [
+      "Critica",
+      "Sin stock"
+    ],
+    "action": {
+      "type": "navigate",
+      "route": [
+        "products",
+        "1"
+      ]
+    },
+    "id": "notif-042",
+    "timestamp": "2026-06-25T21:20:09.325Z",
+    "isRead": false
+  },
+  {
+    "type": "movements",
+    "title": "Recepción confirmada - Xiaomi 14 (Negro)",
+    "description": "Se ingresaron 25 unidades. Stock actual: 25.",
+    "badges": [
+      "Movimiento",
+      "Entrada",
+      "Recepción"
+    ],
+    "action": {
+      "type": "navigate",
+      "route": [
+        "products",
+        "1"
+      ]
+    },
+    "id": "notif-043",
+    "timestamp": "2026-06-25T21:20:12.570Z",
+    "isRead": false
+  },
+  {
+    "type": "confirmed",
+    "title": "Producto descontinuado - Xiaomi 14",
+    "description": "El producto fue marcado como descontinuado y salió del catálogo activo.",
+    "badges": [
+      "Confirmada",
+      "Descontinuado"
+    ],
+    "action": {
+      "type": "none"
+    },
+    "id": "notif-044",
+    "timestamp": "2026-06-26T04:10:03.449Z",
+    "isRead": false
+  },
+  {
+    "type": "confirmed",
+    "title": "Producto activado - Xiaomi 14",
+    "description": "El producto pasó a estado 'disponible' y ya aparece en el catálogo.",
+    "badges": [
+      "Confirmada",
+      "Activado"
+    ],
+    "action": {
+      "type": "navigate",
+      "route": [
+        "products",
+        "1"
+      ]
+    },
+    "id": "notif-045",
+    "timestamp": "2026-06-26T04:10:11.285Z",
+    "isRead": false
+  },
+  {
+    "type": "movements",
+    "title": "Nuevo producto registrado - Smartwatch Series 9",
+    "description": "Èl producto fue agregado al catálogo con estado 'disponible'. Marca: Apple.",
+    "badges": [
+      "Movimiento",
+      "Entrada"
+    ],
+    "action": {
+      "type": "navigate",
+      "route": [
+        "products",
+        "7"
+      ]
+    },
+    "id": "notif-046",
+    "timestamp": "2026-06-26T06:00:20.580Z",
+    "isRead": false
+  },
+  {
+    "type": "movements",
+    "title": "Nuevo producto registrado -  ",
+    "description": "Èl producto fue agregado al catálogo con estado 'disponible'. Marca:  .",
+    "badges": [
+      "Movimiento",
+      "Entrada"
+    ],
+    "action": {
+      "type": "navigate",
+      "route": [
+        "products",
+        "8"
+      ]
+    },
+    "id": "notif-047",
+    "timestamp": "2026-06-26T06:01:23.959Z",
+    "isRead": false
+  },
+  {
+    "type": "movements",
+    "title": "Nuevo producto registrado - Producto 1",
+    "description": "Èl producto fue agregado al catálogo con estado 'disponible'. Marca: Marca 1.",
+    "badges": [
+      "Movimiento",
+      "Entrada"
+    ],
+    "action": {
+      "type": "navigate",
+      "route": [
+        "products",
+        "8"
+      ]
+    },
+    "id": "notif-048",
+    "timestamp": "2026-06-26T06:23:41.386Z",
+    "isRead": false
+  },
+  {
+    "type": "movements",
+    "title": "Recepción confirmada - Xiaomi 14 (Xiaomi 14)",
+    "description": "Se ingresaron 975 unidades. Stock actual: 1000.",
+    "badges": [
+      "Movimiento",
+      "Entrada",
+      "Recepción"
+    ],
+    "action": {
+      "type": "navigate",
+      "route": [
+        "products",
+        "1"
+      ]
+    },
+    "id": "notif-049",
+    "timestamp": "2026-06-29T00:58:22.092Z",
+    "isRead": false
+  },
+  {
+    "type": "movements",
+    "title": "Recepción confirmada - Xiaomi 14 (Xiaomi 14 pruebitas)",
+    "description": "Se ingresaron 9000 unidades. Stock actual: 10000.",
+    "badges": [
+      "Movimiento",
+      "Entrada",
+      "Recepción"
+    ],
+    "action": {
+      "type": "navigate",
+      "route": [
+        "products",
+        "1"
+      ]
+    },
+    "id": "notif-050",
+    "timestamp": "2026-06-29T00:59:23.117Z",
+    "isRead": false
+  },
+  {
+    "type": "critical",
+    "title": "Stock agotado - Xiaomi 14 (Xiaomi 14 pruebitas 123)",
+    "description": "La variante XIA14-NEG-128 tiene 0 unidades. Ventas bloqueadas automáticamente.",
+    "badges": [
+      "Critica",
+      "Sin stock"
+    ],
+    "action": {
+      "type": "navigate",
+      "route": [
+        "products",
+        "1"
+      ]
+    },
+    "id": "notif-051",
+    "timestamp": "2026-06-29T02:57:40.863Z",
+    "isRead": false
+  },
+  {
+    "type": "movements",
+    "title": "Recepción confirmada - Xiaomi 14 (Xiaomi 14 pruebitas 123)",
+    "description": "Se ingresaron 1000 unidades. Stock actual: 1000.",
+    "badges": [
+      "Movimiento",
+      "Entrada",
+      "Recepción"
+    ],
+    "action": {
+      "type": "navigate",
+      "route": [
+        "products",
+        "1"
+      ]
+    },
+    "id": "notif-052",
+    "timestamp": "2026-06-29T02:57:57.755Z",
+    "isRead": false
+  },
+  {
+    "type": "confirmed",
+    "title": "Producto descontinuado - Xiaomi 14",
+    "description": "El producto fue marcado como descontinuado y salió del catálogo activo.",
+    "badges": [
+      "Confirmada",
+      "Descontinuado"
+    ],
+    "action": {
+      "type": "none"
+    },
+    "id": "notif-053",
+    "timestamp": "2026-06-29T02:58:17.007Z",
+    "isRead": false
+  },
+  {
+    "type": "confirmed",
+    "title": "Producto activado - Xiaomi 14",
+    "description": "El producto pasó a estado 'disponible' y ya aparece en el catálogo.",
+    "badges": [
+      "Confirmada",
+      "Activado"
+    ],
+    "action": {
+      "type": "navigate",
+      "route": [
+        "products",
+        "1"
+      ]
+    },
+    "id": "notif-054",
+    "timestamp": "2026-06-29T02:58:19.371Z",
+    "isRead": false
+  },
+  {
+    "type": "confirmed",
+    "title": "Producto descontinuado - Xiaomi 14",
+    "description": "El producto fue marcado como descontinuado y salió del catálogo activo.",
+    "badges": [
+      "Confirmada",
+      "Descontinuado"
+    ],
+    "action": {
+      "type": "none"
+    },
+    "id": "notif-055",
+    "timestamp": "2026-06-29T02:58:24.371Z",
+    "isRead": false
+  },
+  {
+    "type": "confirmed",
+    "title": "Producto activado - Xiaomi 14",
+    "description": "El producto pasó a estado 'disponible' y ya aparece en el catálogo.",
+    "badges": [
+      "Confirmada",
+      "Activado"
+    ],
+    "action": {
+      "type": "navigate",
+      "route": [
+        "products",
+        "1"
+      ]
+    },
+    "id": "notif-056",
+    "timestamp": "2026-06-29T02:58:27.488Z",
+    "isRead": false
   }
 ]

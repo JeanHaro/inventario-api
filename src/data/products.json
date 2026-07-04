@@ -14,10 +14,13 @@
         "id": 1,
         "color": "Negro",
         "capacidad": "128GB",
-        "stock": 25,
+        "stock": 1000,
         "estado": "disponible",
         "sku": "XIA14-NEG-128",
-        "imagen": "http://localhost:3002/uploads/1779606413313-xiaomi14.webp"
+        "imagen": "http://localhost:3002/uploads/1782691797135-xiaomi-2.png",
+        "nombre": "Xiaomi 14 pruebitas 123",
+        "talla": "",
+        "precioAdicional": 10000
       },
       {
         "id": 2,
@@ -45,7 +48,7 @@
       "oferta"
     ],
     "creadoEn": "2025-01-10T08:00:00.000Z",
-    "actualizadoEn": "2026-06-25T20:38:21.306Z",
+    "actualizadoEn": "2026-06-29T06:30:42.035Z",
     "imagenes": [
       "http://localhost:3002/uploads/1779082325550-profile.jpg",
       "http://localhost:3002/uploads/1782238152330-profile-2.jpg"
@@ -215,5 +218,29 @@
     "id": 6,
     "creadoEn": "2026-05-18T02:40:13.925Z",
     "actualizadoEn": "2026-06-20T04:57:13.274Z"
+  },
+  {
+    "nombre": "Smartwatch Series 9",
+    "marca": "Apple",
+    "modelo": "Active Edition 2026",
+    "precio": 299,
+    "descuento": 10,
+    "categoria": "tecnologia",
+    "estado": "disponible",
+    "descripcion": "Reloj inteligente de última generación con pantalla AMOLED de alta resolución. Cuenta con monitoreo de ritmo cardíaco las 24 horas, seguimiento avanzado de actividad física, GPS integrado y resistencia al agua hasta 50 metros. Batería de larga duración de hasta 7 días en uso continuo y compatibilidad total con iOS y Android.",
+    "etiquetas": [
+      "Nuevo",
+      "Oferta",
+      "Wearables",
+      "Deporte",
+      "Smartwatch"
+    ],
+    "variantes": [],
+    "id": 7,
+    "creadoEn": "2026-06-26T06:00:20.579Z",
+    "actualizadoEn": "2026-06-26T06:27:06.843Z",
+    "imagenes": [
+      "http://localhost:3002/uploads/1782455226840-profile.jpg"
+    ]
   }
 ]

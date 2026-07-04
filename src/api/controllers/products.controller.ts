@@ -21,6 +21,7 @@ import {
     findById, 
     findByMarca,
     getPrecioFinal,
+    isSkuUnique, 
     searchByCategoria,
     searchByNombre,
     updateProducto,
@@ -414,6 +415,14 @@ export const addProductVariante = ( req: Request, res: Response ): void => {
         return;
     }
 
+    // Validamos que el sku no exista en otra variante
+    if ( req.body.sku && !isSkuUnique(req.body.sku) ) {
+        res.status(400).json({
+            error: `El SKU "${req.body.sku}" ya está en uso por otra variante`
+        });
+        return;
+    }
+
     // Con multipart/form-data los campos llegan como string - convertimos los numéricos
     const stock = Number(stockRaw);
 
@@ -484,6 +493,16 @@ export const updateProductVariante = ( req: Request, res: Response ): void => {
         });
 
         return;
+    }
+
+    // Validamos que el sku no exista en otra variante
+    if ( body.sku && body.sku !== varianteAnterior.sku ) {
+        if ( !isSkuUnique(body.sku, varianteId) ) {
+            res.status(400).json({
+                error: `El SKU "${body.sku}" ya está en uso por otra variante`
+            });
+            return;
+        }
     }
 
     const allowedData = {
