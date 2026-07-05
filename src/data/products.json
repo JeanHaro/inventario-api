@@ -2,7 +2,7 @@
   {
     "nombre": "Auriculares Inalámbricos Pro",
     "marca": "SoundMax",
-    "modelo": "",
+    "modelo": "Prueba",
     "precio": 189,
     "descuento": 15,
     "categoria": "electronica",
@@ -40,7 +40,7 @@
     ],
     "id": 1,
     "creadoEn": "2026-07-05T21:05:20.372Z",
-    "actualizadoEn": "2026-07-05T21:36:38.823Z",
+    "actualizadoEn": "2026-07-05T23:17:08.268Z",
     "imagenes": [
       "http://localhost:3002/uploads/1783287395386-profile.jpg",
       "http://localhost:3002/uploads/1783287398807-profile-2.jpg"
@@ -79,7 +79,8 @@
         "color": "Azul",
         "sku": "TRK-VEL-42A",
         "precioAdicional": 0,
-        "id": 2
+        "id": 2,
+        "capacidad": ""
       },
       {
         "stock": 3,
@@ -94,7 +95,7 @@
     ],
     "id": 2,
     "creadoEn": "2026-07-05T21:14:52.899Z",
-    "actualizadoEn": "2026-07-05T21:35:58.907Z"
+    "actualizadoEn": "2026-07-05T23:17:26.114Z"
   },
   {
     "nombre": "Cafetera Espresso Automática",

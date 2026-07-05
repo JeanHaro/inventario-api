@@ -750,5 +750,43 @@
     "id": "notif-040",
     "timestamp": "2026-07-05T21:35:58.907Z",
     "isRead": false
+  },
+  {
+    "type": "critical",
+    "title": "Stock agotado - Zapatillas Running Velocity (Talla 42 Azul)",
+    "description": "La variante TRK-VEL-42A tiene 0 unidades. Ventas bloqueadas automáticamente.",
+    "badges": [
+      "Critica",
+      "Sin stock"
+    ],
+    "action": {
+      "type": "navigate",
+      "route": [
+        "products",
+        "2"
+      ]
+    },
+    "id": "notif-041",
+    "timestamp": "2026-07-05T23:17:21.117Z",
+    "isRead": false
+  },
+  {
+    "type": "critical",
+    "title": "Stock agotado - Zapatillas Running Velocity (Talla 42 Azul)",
+    "description": "La variante TRK-VEL-42A tiene 0 unidades. Ventas bloqueadas automáticamente.",
+    "badges": [
+      "Critica",
+      "Sin stock"
+    ],
+    "action": {
+      "type": "navigate",
+      "route": [
+        "products",
+        "2"
+      ]
+    },
+    "id": "notif-042",
+    "timestamp": "2026-07-05T23:17:26.115Z",
+    "isRead": false
   }
 ]

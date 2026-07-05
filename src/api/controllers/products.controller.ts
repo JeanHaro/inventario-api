@@ -295,16 +295,24 @@ export const updateProduct = ( req: Request, res: Response ): void => {
     }
 
     const allowedData = {
-        ...(body.nombre      && { nombre: body.nombre }),
-        ...(body.descripcion && { descripcion: body.descripcion }),
-        ...(body.marca       && { marca: body.marca }),
-        ...(body.modelo      && { modelo: body.modelo }),
+        ...(body.nombre      !== undefined && { nombre: body.nombre }),
+        ...(body.descripcion !== undefined && { 
+            descripcion: String(body.descripcion).trim().length > 0 
+                                ? String(body.descripcion).trim() 
+                                : undefined
+        }),
+        ...(body.marca       !== undefined && { marca: body.marca }),
+        ...(body.modelo      !== undefined && { 
+            modelo: String(body.modelo).trim().length > 0 
+                                ? String(body.modelo).trim() 
+                                : undefined 
+        }),
         ...(body.precio      && { precio: Number(body.precio) }),
         ...(body.descuento !== undefined && { descuento: Number(body.descuento) }),
-        ...(body.categoria   && { categoria: body.categoria }),
-        ...(body.estado      && { estado: body.estado }),
+        ...(body.categoria   !== undefined && { categoria: body.categoria }),
+        ...(body.estado      !== undefined && { estado: body.estado }),
         ...(body.etiquetas   && { etiquetas: body.etiquetas }),
-        ...(body.imagenes    && { imagenes: body.imagenes }),
+        ...(body.imagenes    !== undefined && { imagenes: body.imagenes }),
         ...(body.etiquetas && Array.isArray(body.etiquetas) && {
                 etiquetas: [...new Set(
                     (body.etiquetas as string[])
@@ -594,9 +602,21 @@ export const updateProductVariante = ( req: Request, res: Response ): void => {
 
     const allowedData = {
         ...(body.nombre          !== undefined && { nombre: body.nombre }),
-        ...(body.talla           !== undefined && { talla: body.talla }),
-        ...(body.color           !== undefined && { color: body.color }),
-        ...(body.capacidad       !== undefined && { capacidad: body.capacidad }),
+        ...(body.talla           !== undefined && { 
+            talla: String(body.talla).trim().length > 0 
+                                ? String(body.talla).trim() 
+                                : undefined
+        }),
+        ...(body.color           !== undefined && { 
+            color: String(body.color).trim().length > 0 
+                                ? String(body.color).trim() 
+                                : undefined
+        }),
+        ...(body.capacidad       !== undefined && { 
+            capacidad: String(body.capacidad).trim().length > 0 
+                                ? String(body.capacidad).trim() 
+                                : undefined
+        }),
         ...(body.stock           !== undefined && { stock: Number(body.stock) }),
         ...(body.estado          !== undefined && { estado: body.estado }),
         ...(body.sku             !== undefined && { sku: skuTrimmedUpdate }),
