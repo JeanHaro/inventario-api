@@ -182,16 +182,17 @@ export const getProductPrice = ( req: Request, res: Response ): void => {
 
 // POST /products
 export const createProduct = ( req: Request, res: Response ): void => {
-    const { nombre, precio, categoria, estado, etiquetas } = req.body;
+    const { nombre, precio, categoria, estado, marca, etiquetas } = req.body;
 
     if ( 
         !nombre || 
         !precio || 
         !categoria || 
-        !estado 
+        !estado ||
+        !marca
     ) {
         res.status(400).json({ 
-            error: 'Campos obligatorios: nombre, precio, categoria, estado' 
+            error: 'Campos obligatorios: nombre, precio, categoria, estado, marca' 
         });
 
         return;
@@ -265,6 +266,13 @@ export const updateProduct = ( req: Request, res: Response ): void => {
         return;
     }
 
+    if ( body.marca !== undefined && String(body.marca).trim().length === 0 ) {
+        res.status(400).json({ 
+            error: 'La marca no puede quedar vacía' 
+        });
+        return;
+    }
+
     // Guardamos el estado anterior para detectar cambios
     const productoAnterior = findById(id);
 
@@ -274,6 +282,16 @@ export const updateProduct = ( req: Request, res: Response ): void => {
         });
 
         return;
+    }
+
+    if ( body.precio !== undefined ) {
+        const precioNum = Number(body.precio);
+        if ( isNaN(precioNum) || precioNum <= 0 ) {
+            res.status(400).json({ 
+                error: 'El precio debe ser un número mayor a 0' 
+            });
+            return;
+        }
     }
 
     const allowedData = {
@@ -400,10 +418,19 @@ export const addProductVariante = ( req: Request, res: Response ): void => {
     // Extraemos y convertimos del body
     const stockRaw = req.body.stock;
     const estado = req.body.estado;
+    const nombre = req.body.nombre;
+    const precioAdicional = req.body.precioAdicional;
+    const sku = req.body.sku;
 
-    if (stockRaw === undefined || !estado) {
+    if ( 
+        stockRaw === undefined || 
+        !estado || 
+        !nombre || 
+        precioAdicional === undefined || 
+        !sku 
+    ) {
         res.status(400).json({
-            error: 'Campos obligatorios en variante: stock, estado'
+            error: 'Campos obligatorios en variante: stock, estado, nombre, precioAdicional, sku'
         });
         return;
     }
@@ -416,15 +443,39 @@ export const addProductVariante = ( req: Request, res: Response ): void => {
     }
 
     // Validamos que el sku no exista en otra variante
-    if ( req.body.sku && !isSkuUnique(req.body.sku) ) {
-        res.status(400).json({
-            error: `El SKU "${req.body.sku}" ya está en uso por otra variante`
+    const skuTrimmed = String(sku).trim();
+
+    if ( skuTrimmed.length === 0 ) {
+        res.status(400).json({ 
+            error: 'El SKU no puede estar vacío' 
+        });
+        return;
+    }
+
+    if ( !isSkuUnique(skuTrimmed) ) {
+        res.status(400).json({ 
+            error: `El SKU "${skuTrimmed}" ya está en uso por otra variante` 
         });
         return;
     }
 
     // Con multipart/form-data los campos llegan como string - convertimos los numéricos
     const stock = Number(stockRaw);
+
+    if ( isNaN(stock) || stock < 0 ) {
+        res.status(400).json({
+            error: 'El stock debe ser un número mayor o igual a 0'
+        });
+        return;
+    }
+
+    const precioAd = Number(precioAdicional);
+    if ( isNaN(precioAd) || precioAd < 0 ) {
+        res.status(400).json({ 
+            error: 'El precio adicional no puede ser negativo'
+        });
+        return;
+    }
 
     const varianteData: Omit<Variante, 'id'> = {
         stock,
@@ -433,8 +484,8 @@ export const addProductVariante = ( req: Request, res: Response ): void => {
         talla: req.body.talla,
         color: req.body.color,
         capacidad: req.body.capacidad,
-        sku: req.body.sku,
-        precioAdicional:req.body.precioAdicional ? Number(req.body.precioAdicional) : undefined,
+        sku: skuTrimmed,
+        precioAdicional: precioAd,
         imagen: req.file ? `http://localhost:3002/uploads/${req.file.filename}` : undefined
     };
 
@@ -474,6 +525,20 @@ export const updateProductVariante = ( req: Request, res: Response ): void => {
         return;
     }
 
+    if ( body.nombre !== undefined && String(body.nombre).trim().length === 0 ) {
+        res.status(400).json({ 
+            error: 'El nombre de la variante no puede quedar vacío' 
+        });
+        return;
+    }
+
+    if ( body.sku !== undefined && String(body.sku).trim().length === 0 ) {
+        res.status(400).json({ 
+            error: 'El SKU no puede quedar vacío' 
+        });
+        return;
+    }
+
     // Guardamos stock anterior para detectar cambios de dirección
     const productoAnterior = findById(productoId);
     if ( !productoAnterior ) {
@@ -495,11 +560,33 @@ export const updateProductVariante = ( req: Request, res: Response ): void => {
         return;
     }
 
-    // Validamos que el sku no exista en otra variante
-    if ( body.sku && body.sku !== varianteAnterior.sku ) {
-        if ( !isSkuUnique(body.sku, varianteId) ) {
+    if ( body.stock !== undefined ) {
+        const stockCheck = Number(body.stock);
+        
+        if ( isNaN(stockCheck) || stockCheck < 0 ) {
             res.status(400).json({
-                error: `El SKU "${body.sku}" ya está en uso por otra variante`
+                error: 'El stock debe ser un número mayor o igual a 0'
+            });
+            return;
+        }
+    }
+
+    // Validamos que el sku no exista en otra variante
+    const skuTrimmedUpdate = body.sku ? String(body.sku).trim() : undefined;
+
+    if ( 
+        skuTrimmedUpdate !== undefined && 
+        skuTrimmedUpdate !== varianteAnterior.sku 
+    ) {
+        if ( skuTrimmedUpdate.length === 0 ) {
+            res.status(400).json({
+                error: 'El SKU no puede estar vacío' 
+            });
+            return;
+        }
+        if ( !isSkuUnique(skuTrimmedUpdate, varianteId) ) {
+            res.status(400).json({ 
+                error: `El SKU "${skuTrimmedUpdate}" ya está en uso por otra variante` 
             });
             return;
         }
@@ -512,7 +599,7 @@ export const updateProductVariante = ( req: Request, res: Response ): void => {
         ...(body.capacidad       !== undefined && { capacidad: body.capacidad }),
         ...(body.stock           !== undefined && { stock: Number(body.stock) }),
         ...(body.estado          !== undefined && { estado: body.estado }),
-        ...(body.sku             !== undefined && { sku: body.sku }),
+        ...(body.sku             !== undefined && { sku: skuTrimmedUpdate }),
         ...(body.precioAdicional !== undefined && { precioAdicional: Number(body.precioAdicional) }),
         ...(body.imagen          !== undefined && { imagen: body.imagen }),
     };

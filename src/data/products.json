@@ -1,246 +1,380 @@
 [
   {
-    "id": 1,
-    "nombre": "Xiaomi 14",
-    "descripcion": "Smartphone flagship de Xiaomi con cámara Leica y procesador Snapdragon 8 Gen 3.",
-    "marca": "Xiaomi",
-    "modelo": "14",
-    "precio": 900,
-    "descuento": 10,
-    "categoria": "tecnologia",
+    "nombre": "Auriculares Inalámbricos Pro",
+    "marca": "SoundMax",
+    "modelo": "",
+    "precio": 189,
+    "descuento": 15,
+    "categoria": "electronica",
     "estado": "disponible",
-    "variantes": [
-      {
-        "id": 1,
-        "color": "Negro",
-        "capacidad": "128GB",
-        "stock": 1000,
-        "estado": "disponible",
-        "sku": "XIA14-NEG-128",
-        "imagen": "http://localhost:3002/uploads/1782691797135-xiaomi-2.png",
-        "nombre": "Xiaomi 14 pruebitas 123",
-        "talla": "",
-        "precioAdicional": 10000
-      },
-      {
-        "id": 2,
-        "color": "Blanco",
-        "capacidad": "256GB",
-        "stock": 0,
-        "estado": "sin_stock",
-        "sku": "XIA14-BLA-256",
-        "precioAdicional": 80,
-        "imagen": null
-      },
-      {
-        "id": 3,
-        "color": "Verde",
-        "capacidad": "128GB",
-        "stock": 0,
-        "estado": "sin_stock",
-        "sku": "XIA14-VER-128",
-        "imagen": null
-      }
-    ],
+    "descripcion": "Auriculares Inalámbricos Pro ofrecen una cancelación activa de ruido excepcional, sonido espacial y un estuche con carga inalámbrica",
     "etiquetas": [
       "nuevo",
-      "destacado",
-      "oferta"
+      "bluetooth",
+      "noise-cancelling"
     ],
-    "creadoEn": "2025-01-10T08:00:00.000Z",
-    "actualizadoEn": "2026-06-29T06:30:42.035Z",
-    "imagenes": [
-      "http://localhost:3002/uploads/1779082325550-profile.jpg",
-      "http://localhost:3002/uploads/1782238152330-profile-2.jpg"
-    ]
-  },
-  {
-    "id": 2,
-    "nombre": "Lavadora Mabe",
-    "descripcion": "Lavadora de carga frontal con tecnología de ahorro de agua y energía.",
-    "marca": "Mabe",
-    "modelo": "LT12CWB",
-    "precio": 650,
-    "categoria": "hogar",
-    "estado": "disponible",
     "variantes": [
       {
+        "stock": 40,
+        "estado": "disponible",
+        "nombre": "Negro",
+        "sku": "SND-AUR-NEG",
+        "precioAdicional": 0,
         "id": 1,
-        "nombre": "10kg",
-        "capacidad": "10kg",
-        "stock": 5,
-        "estado": "disponible",
-        "sku": "MAB-LT10-BLA"
-      },
-      {
-        "id": 2,
-        "nombre": "12kg",
-        "capacidad": "12kg",
-        "stock": 3,
-        "estado": "disponible",
-        "sku": "MAB-LT12-BLA",
-        "precioAdicional": 120
-      }
-    ],
-    "etiquetas": [
-      "hogar",
-      "electrodomestico"
-    ],
-    "creadoEn": "2025-02-15T09:00:00.000Z",
-    "actualizadoEn": "2026-05-31T00:50:11.208Z"
-  },
-  {
-    "id": 3,
-    "nombre": "Camiseta Básica",
-    "descripcion": "Camiseta 100% algodón peinado, corte regular.",
-    "marca": "StudioBasic",
-    "precio": 25,
-    "categoria": "ropa",
-    "estado": "disponible",
-    "variantes": [
-      {
-        "id": 1,
-        "talla": "S",
+        "imagen": "http://localhost:3002/uploads/1783285878763-auriculares-negros.webp",
+        "talla": "",
         "color": "Negro",
-        "stock": 20,
-        "estado": "disponible",
-        "sku": "CAM-NEG-S"
+        "capacidad": ""
       },
       {
-        "id": 2,
-        "talla": "M",
-        "color": "Negro",
-        "stock": 18,
-        "estado": "disponible",
-        "sku": "CAM-NEG-M"
-      },
-      {
-        "id": 3,
-        "talla": "L",
-        "color": "Negro",
-        "stock": 0,
-        "estado": "sin_stock",
-        "sku": "CAM-NEG-L"
-      },
-      {
-        "id": 4,
-        "talla": "S",
-        "color": "Blanco",
         "stock": 12,
         "estado": "disponible",
-        "sku": "CAM-BLA-S"
-      },
-      {
-        "id": 5,
-        "talla": "M",
-        "color": "Blanco",
-        "stock": 7,
-        "estado": "disponible",
-        "sku": "CAM-BLA-M"
-      }
-    ],
-    "etiquetas": [
-      "basico",
-      "casual"
-    ],
-    "creadoEn": "2025-03-01T10:00:00.000Z",
-    "actualizadoEn": "2025-05-05T16:00:00.000Z"
-  },
-  {
-    "id": 4,
-    "nombre": "Aceite de Oliva Extra Virgen",
-    "descripcion": "Aceite de oliva extra virgen de primera presión en frío, 500ml.",
-    "marca": "Carbonell",
-    "precio": 12,
-    "categoria": "alimentos",
-    "estado": "disponible",
-    "variantes": [
-      {
-        "id": 1,
-        "nombre": "500ml",
-        "capacidad": "500ml",
-        "stock": 9,
-        "estado": "disponible",
-        "sku": "ACE-500ML"
-      },
-      {
+        "nombre": "Blanco Perla",
+        "sku": "SND-AUR-BLA",
+        "precioAdicional": 15,
         "id": 2,
-        "nombre": "1L",
-        "capacidad": "1L",
-        "stock": 4,
-        "estado": "disponible",
-        "sku": "ACE-1L",
-        "precioAdicional": 10
+        "talla": "",
+        "color": "Blanco Perla",
+        "capacidad": ""
       }
     ],
-    "etiquetas": [
-      "organico",
-      "importado"
-    ],
-    "creadoEn": "2025-01-20T07:00:00.000Z",
-    "actualizadoEn": "2026-06-25T16:35:45.635Z",
-    "descuento": 0
+    "id": 1,
+    "creadoEn": "2026-07-05T21:05:20.372Z",
+    "actualizadoEn": "2026-07-05T21:36:38.823Z",
+    "imagenes": [
+      "http://localhost:3002/uploads/1783287395386-profile.jpg",
+      "http://localhost:3002/uploads/1783287398807-profile-2.jpg"
+    ]
   },
   {
-    "id": 5,
-    "nombre": "Xiaomi 14 Pro",
-    "descripcion": "Versión Pro del Xiaomi 14 con pantalla LTPO y batería de 5000mAh.",
-    "marca": "Xiaomi",
-    "modelo": "14 Pro",
-    "precio": 1099,
-    "categoria": "tecnologia",
-    "estado": "proximamente",
+    "nombre": "Zapatillas Running Velocity",
+    "marca": "Trailhawk",
+    "modelo": "",
+    "precio": 249,
+    "descuento": 0,
+    "categoria": "calzado",
+    "estado": "disponible",
+    "descripcion": "Las zapatillas Running Velocity son zapatillas de running neutras, ultraligeras y muy versátiles diseñadas para el entrenamiento diario.",
+    "etiquetas": [
+      "running",
+      "deportivo"
+    ],
     "variantes": [
       {
+        "stock": 8,
+        "estado": "disponible",
+        "nombre": "Talla 40 Azul",
+        "sku": "TRK-VEL-40A",
+        "precioAdicional": 0,
         "id": 1,
-        "color": "Negro",
-        "capacidad": "256GB",
+        "talla": "40",
+        "color": "Azul",
+        "capacidad": ""
+      },
+      {
         "stock": 0,
         "estado": "sin_stock",
-        "sku": "XIA14PRO-NEG-256"
+        "nombre": "Talla 42 Azul",
+        "talla": "42",
+        "color": "Azul",
+        "sku": "TRK-VEL-42A",
+        "precioAdicional": 0,
+        "id": 2
+      },
+      {
+        "stock": 3,
+        "estado": "reservado",
+        "nombre": "Talla 42 Rojo",
+        "talla": "42",
+        "color": "Rojo",
+        "sku": "TRK-VEL-42R",
+        "precioAdicional": 10,
+        "id": 3
       }
     ],
-    "etiquetas": [
-      "nuevo",
-      "proximamente",
-      "premium"
-    ],
-    "creadoEn": "2025-05-01T08:00:00.000Z",
-    "actualizadoEn": "2026-06-25T20:41:22.913Z"
+    "id": 2,
+    "creadoEn": "2026-07-05T21:14:52.899Z",
+    "actualizadoEn": "2026-07-05T21:35:58.907Z"
   },
   {
-    "nombre": "Samsung Galaxy S24",
-    "marca": "Samsung",
-    "precio": 950,
-    "categoria": "tecnologia",
-    "estado": "agotado",
-    "variantes": [],
-    "id": 6,
-    "creadoEn": "2026-05-18T02:40:13.925Z",
-    "actualizadoEn": "2026-06-20T04:57:13.274Z"
-  },
-  {
-    "nombre": "Smartwatch Series 9",
-    "marca": "Apple",
-    "modelo": "Active Edition 2026",
-    "precio": 299,
-    "descuento": 10,
-    "categoria": "tecnologia",
+    "nombre": "Cafetera Espresso Automática",
+    "marca": "Baristo",
+    "modelo": "",
+    "precio": 420,
+    "descuento": 20,
+    "categoria": "hogar",
     "estado": "disponible",
-    "descripcion": "Reloj inteligente de última generación con pantalla AMOLED de alta resolución. Cuenta con monitoreo de ritmo cardíaco las 24 horas, seguimiento avanzado de actividad física, GPS integrado y resistencia al agua hasta 50 metros. Batería de larga duración de hasta 7 días en uso continuo y compatibilidad total con iOS y Android.",
+    "descripcion": "Máquina de uso doméstico o comercial ligero que automatiza procesos clave (molido, prensado y extracción) para obtener un café de especialidad con solo pulsar un botón.",
     "etiquetas": [
-      "Nuevo",
-      "Oferta",
-      "Wearables",
-      "Deporte",
-      "Smartwatch"
+      "cocina",
+      "premium",
+      "oferta"
     ],
-    "variantes": [],
+    "variantes": [
+      {
+        "stock": 6,
+        "estado": "disponible",
+        "nombre": "Acero Inoxidable",
+        "sku": "BAR-CAF-ACE",
+        "precioAdicional": 0,
+        "id": 1
+      }
+    ],
+    "id": 3,
+    "creadoEn": "2026-07-05T21:18:41.769Z",
+    "actualizadoEn": "2026-07-05T21:18:57.957Z"
+  },
+  {
+    "nombre": "Mochila Urbana Impermeable",
+    "marca": "Nordik",
+    "modelo": "",
+    "precio": 85,
+    "descuento": 0,
+    "categoria": "otros",
+    "estado": "agotado",
+    "descripcion": "Es un modelo urbano de estética nórdica, minimalista y funcional. Cuenta con un diseño resistente a la intemperie, ideal para proteger tus pertenencias del agua y la lluvia ligera.",
+    "etiquetas": [
+      "urbano",
+      "viaje"
+    ],
+    "variantes": [
+      {
+        "stock": 0,
+        "estado": "sin_stock",
+        "nombre": "Gris 20L",
+        "color": "Gris",
+        "capacidad": "20L",
+        "sku": "NRD-MOC-GR20",
+        "precioAdicional": 0,
+        "id": 1
+      },
+      {
+        "stock": 0,
+        "estado": "sin_stock",
+        "nombre": "Negro 25L",
+        "color": "Negro",
+        "capacidad": "25L",
+        "sku": "NRD-MOC-NG25",
+        "precioAdicional": 5,
+        "id": 2
+      }
+    ],
+    "id": 4,
+    "creadoEn": "2026-07-05T21:20:21.575Z",
+    "actualizadoEn": "2026-07-05T21:21:23.527Z"
+  },
+  {
+    "nombre": "Suplemento Proteína Whey",
+    "marca": "MaxNutrition",
+    "modelo": "",
+    "precio": 65,
+    "descuento": 10,
+    "categoria": "deportes",
+    "estado": "disponible",
+    "descripcion": "Son polvos de alta calidad y rápida absorción que aportan proteínas completas y aminoácidos esenciales",
+    "etiquetas": [
+      "fitness",
+      "suplemento"
+    ],
+    "variantes": [
+      {
+        "stock": 30,
+        "estado": "disponible",
+        "nombre": "Chocolate 2kg",
+        "capacidad": "2kg",
+        "sku": "MXN-PROT-CHO2",
+        "precioAdicional": 0,
+        "id": 1
+      },
+      {
+        "stock": 5,
+        "estado": "disponible",
+        "nombre": "Vainilla 2kg",
+        "capacidad": "2kg",
+        "sku": "MXN-PROT-VAI2",
+        "precioAdicional": 0,
+        "id": 2
+      },
+      {
+        "stock": 0,
+        "estado": "sin_stock",
+        "nombre": "Fresa 1kg",
+        "capacidad": "1kg",
+        "sku": "MXN-PROT-FRE1",
+        "precioAdicional": 0,
+        "id": 3
+      }
+    ],
+    "id": 5,
+    "creadoEn": "2026-07-05T21:22:44.689Z",
+    "actualizadoEn": "2026-07-05T21:23:52.830Z"
+  },
+  {
+    "nombre": "Novela \"El Último Horizonte\"",
+    "marca": "Editorial Aurora",
+    "modelo": "",
+    "precio": 28,
+    "descuento": 0,
+    "categoria": "libros",
+    "estado": "disponible",
+    "descripcion": "La novela a la que haces referencia es \"El último horizonte\" (título original: The Last Horizon), una obra de space fantasy (fantasía científica) escrita por Will Wight",
+    "etiquetas": [
+      "ficción",
+      "bestseller"
+    ],
+    "variantes": [
+      {
+        "stock": 50,
+        "estado": "disponible",
+        "nombre": "Tapa Blanda",
+        "sku": "AUR-HOR-TB",
+        "precioAdicional": 0,
+        "id": 1
+      },
+      {
+        "stock": 4,
+        "estado": "disponible",
+        "nombre": "Tapa Dura Edición Especial",
+        "sku": "AUR-HOR-TD",
+        "precioAdicional": 12,
+        "id": 2
+      }
+    ],
+    "id": 6,
+    "creadoEn": "2026-07-05T21:25:09.923Z",
+    "actualizadoEn": "2026-07-05T21:26:00.057Z"
+  },
+  {
+    "nombre": "Smartwatch FitTrack X2",
+    "marca": "FitTrack",
+    "modelo": "",
+    "precio": 310,
+    "descuento": 0,
+    "categoria": "tecnologia",
+    "estado": "proximamente",
+    "descripcion": "El FitTrack X2 es un dispositivo que combina monitor de actividad física y reloj inteligente diseñado para el seguimiento de la salud.",
+    "etiquetas": [
+      "wearable",
+      "preventa"
+    ],
+    "variantes": [
+      {
+        "stock": 0,
+        "estado": "sin_stock",
+        "nombre": "Correa Negra",
+        "color": "Negro",
+        "sku": "FIT-X2-NEG",
+        "precioAdicional": 0,
+        "id": 1
+      }
+    ],
     "id": 7,
-    "creadoEn": "2026-06-26T06:00:20.579Z",
-    "actualizadoEn": "2026-06-26T06:27:06.843Z",
-    "imagenes": [
-      "http://localhost:3002/uploads/1782455226840-profile.jpg"
-    ]
+    "creadoEn": "2026-07-05T21:26:53.575Z",
+    "actualizadoEn": "2026-07-05T21:27:13.538Z"
+  },
+  {
+    "nombre": "Chaqueta Impermeable Alpina",
+    "marca": "MontañaViva",
+    "modelo": "",
+    "precio": 175,
+    "descuento": 5,
+    "categoria": "ropa",
+    "estado": "pausado",
+    "descripcion": "La chaqueta impermeable Alpina MontañaViva está diseñada específicamente para protegerte frente a condiciones climáticas extremas en actividades de alta montaña y trekking. ",
+    "etiquetas": [
+      "outdoor",
+      "invierno"
+    ],
+    "variantes": [
+      {
+        "stock": 0,
+        "estado": "sin_stock",
+        "nombre": "Talla M Verde Oliva",
+        "talla": "M",
+        "color": "Verde Oliva",
+        "sku": "MTV-ALP-MVO",
+        "precioAdicional": 0,
+        "id": 1
+      },
+      {
+        "stock": 0,
+        "estado": "sin_stock",
+        "nombre": "Talla L Verde Oliva",
+        "talla": "L",
+        "color": "Verde Oliva",
+        "sku": "MTV-ALP-LVO",
+        "precioAdicional": 0,
+        "id": 2
+      }
+    ],
+    "id": 8,
+    "creadoEn": "2026-07-05T21:28:09.424Z",
+    "actualizadoEn": "2026-07-05T21:29:03.079Z"
+  },
+  {
+    "nombre": "Set de Cuchillos Profesional",
+    "marca": "ChefEdge",
+    "modelo": "",
+    "precio": 140,
+    "descuento": 0,
+    "categoria": "hogar",
+    "estado": "disponible",
+    "descripcion": "Es un juego de 10 piezas diseñado para el hogar y uso profesional. Su principal característica es su bloque auto-afilable que incorpora afiladores de cerámica internos. ",
+    "etiquetas": [
+      "cocina",
+      "profesional"
+    ],
+    "variantes": [
+      {
+        "stock": 22,
+        "estado": "disponible",
+        "nombre": "Set 5 Piezas",
+        "capacidad": "5 Piezas",
+        "sku": "CHF-CUC-5PZ",
+        "precioAdicional": 0,
+        "id": 1
+      },
+      {
+        "stock": 9,
+        "estado": "disponible",
+        "nombre": "Set 8 Piezas + Block",
+        "capacidad": "8 Piezas",
+        "sku": "CHF-CUC-8PZ",
+        "precioAdicional": 45,
+        "id": 2
+      }
+    ],
+    "id": 9,
+    "creadoEn": "2026-07-05T21:30:32.940Z",
+    "actualizadoEn": "2026-07-05T21:31:14.199Z"
+  },
+  {
+    "nombre": "Balón de Fútbol Profesional",
+    "marca": "GolMax",
+    "modelo": "",
+    "precio": 55,
+    "descuento": 0,
+    "categoria": "deportes",
+    "estado": "reservado",
+    "descripcion": "El balón de fútbol Goldmax (frecuentemente asociado con la marca deportiva) es un esférico de nivel profesional/semi-profesional de Talla 5. ",
+    "etiquetas": [
+      "fútbol",
+      "torneo"
+    ],
+    "variantes": [
+      {
+        "stock": 2,
+        "estado": "reservado",
+        "nombre": "Talla 5 Blanco/Rojo",
+        "talla": "5",
+        "color": "Blanco/Rojo",
+        "sku": "GLM-BAL-T5BR",
+        "precioAdicional": 0,
+        "id": 1
+      }
+    ],
+    "id": 10,
+    "creadoEn": "2026-07-05T21:32:25.117Z",
+    "actualizadoEn": "2026-07-05T21:32:48.822Z"
   }
 ]

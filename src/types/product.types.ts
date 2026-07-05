@@ -31,14 +31,14 @@ export type EstadoVariante =
 
 export interface Variante {
     id: number;
-    nombre?: string;
+    nombre: string;
     talla?: string;
     color?: string;
     capacidad?: string;
     stock: number;
     estado: EstadoVariante;
-    sku?: string;
-    precioAdicional?: number;
+    sku: string;
+    precioAdicional: number;
     imagen?: string;
 }
 
@@ -46,7 +46,7 @@ export interface Producto {
     id: number;
     nombre: string;
     descripcion?: string;
-    marca?: string;
+    marca: string;
     modelo?: string;
     precio: number;
     descuento?: number;
