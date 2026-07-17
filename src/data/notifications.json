@@ -788,5 +788,585 @@
     "id": "notif-042",
     "timestamp": "2026-07-05T23:17:26.115Z",
     "isRead": false
+  },
+  {
+    "type": "confirmed",
+    "title": "Producto descontinuado - Auriculares Inalámbricos Pro",
+    "description": "El producto fue marcado como descontinuado y salió del catálogo activo.",
+    "badges": [
+      "Confirmada",
+      "Descontinuado"
+    ],
+    "action": {
+      "type": "none"
+    },
+    "id": "notif-043",
+    "timestamp": "2026-07-06T00:52:36.495Z",
+    "isRead": false
+  },
+  {
+    "type": "confirmed",
+    "title": "Producto activado - Auriculares Inalámbricos Pro",
+    "description": "El producto pasó a estado 'disponible' y ya aparece en el catálogo.",
+    "badges": [
+      "Confirmada",
+      "Activado"
+    ],
+    "action": {
+      "type": "navigate",
+      "route": [
+        "products",
+        "1"
+      ]
+    },
+    "id": "notif-044",
+    "timestamp": "2026-07-06T00:52:40.873Z",
+    "isRead": false
+  },
+  {
+    "type": "confirmed",
+    "title": "Producto descontinuado - Auriculares Inalámbricos Pro",
+    "description": "El producto fue marcado como descontinuado y salió del catálogo activo.",
+    "badges": [
+      "Confirmada",
+      "Descontinuado"
+    ],
+    "action": {
+      "type": "none"
+    },
+    "id": "notif-045",
+    "timestamp": "2026-07-06T00:53:02.558Z",
+    "isRead": false
+  },
+  {
+    "type": "confirmed",
+    "title": "Producto activado - Auriculares Inalámbricos Pro",
+    "description": "El producto pasó a estado 'disponible' y ya aparece en el catálogo.",
+    "badges": [
+      "Confirmada",
+      "Activado"
+    ],
+    "action": {
+      "type": "navigate",
+      "route": [
+        "products",
+        "1"
+      ]
+    },
+    "id": "notif-046",
+    "timestamp": "2026-07-06T00:53:05.880Z",
+    "isRead": false
+  },
+  {
+    "type": "confirmed",
+    "title": "Producto descontinuado - Auriculares Inalámbricos Pro",
+    "description": "El producto fue marcado como descontinuado y salió del catálogo activo.",
+    "badges": [
+      "Confirmada",
+      "Descontinuado"
+    ],
+    "action": {
+      "type": "none"
+    },
+    "id": "notif-047",
+    "timestamp": "2026-07-06T01:04:56.821Z",
+    "isRead": false
+  },
+  {
+    "type": "confirmed",
+    "title": "Producto activado - Auriculares Inalámbricos Pro",
+    "description": "El producto pasó a estado 'disponible' y ya aparece en el catálogo.",
+    "badges": [
+      "Confirmada",
+      "Activado"
+    ],
+    "action": {
+      "type": "navigate",
+      "route": [
+        "products",
+        "1"
+      ]
+    },
+    "id": "notif-048",
+    "timestamp": "2026-07-06T01:05:00.050Z",
+    "isRead": false
+  },
+  {
+    "type": "confirmed",
+    "title": "Producto descontinuado - Auriculares Inalámbricos Pro",
+    "description": "El producto fue marcado como descontinuado y salió del catálogo activo.",
+    "badges": [
+      "Confirmada",
+      "Descontinuado"
+    ],
+    "action": {
+      "type": "none"
+    },
+    "id": "notif-049",
+    "timestamp": "2026-07-06T01:05:05.643Z",
+    "isRead": false
+  },
+  {
+    "type": "confirmed",
+    "title": "Producto descontinuado - Zapatillas Running Velocity",
+    "description": "El producto fue marcado como descontinuado y salió del catálogo activo.",
+    "badges": [
+      "Confirmada",
+      "Descontinuado"
+    ],
+    "action": {
+      "type": "none"
+    },
+    "id": "notif-050",
+    "timestamp": "2026-07-06T01:05:05.645Z",
+    "isRead": false
+  },
+  {
+    "type": "confirmed",
+    "title": "Producto activado - Auriculares Inalámbricos Pro",
+    "description": "El producto pasó a estado 'disponible' y ya aparece en el catálogo.",
+    "badges": [
+      "Confirmada",
+      "Activado"
+    ],
+    "action": {
+      "type": "navigate",
+      "route": [
+        "products",
+        "1"
+      ]
+    },
+    "id": "notif-051",
+    "timestamp": "2026-07-06T01:05:09.677Z",
+    "isRead": false
+  },
+  {
+    "type": "confirmed",
+    "title": "Producto activado - Zapatillas Running Velocity",
+    "description": "El producto pasó a estado 'disponible' y ya aparece en el catálogo.",
+    "badges": [
+      "Confirmada",
+      "Activado"
+    ],
+    "action": {
+      "type": "navigate",
+      "route": [
+        "products",
+        "2"
+      ]
+    },
+    "id": "notif-052",
+    "timestamp": "2026-07-06T01:05:09.678Z",
+    "isRead": false
+  },
+  {
+    "type": "confirmed",
+    "title": "Producto descontinuado - Auriculares Inalámbricos Pro",
+    "description": "El producto fue marcado como descontinuado y salió del catálogo activo.",
+    "badges": [
+      "Confirmada",
+      "Descontinuado"
+    ],
+    "action": {
+      "type": "none"
+    },
+    "id": "notif-053",
+    "timestamp": "2026-07-06T01:05:17.689Z",
+    "isRead": false
+  },
+  {
+    "type": "confirmed",
+    "title": "Producto activado - Auriculares Inalámbricos Pro",
+    "description": "El producto pasó a estado 'disponible' y ya aparece en el catálogo.",
+    "badges": [
+      "Confirmada",
+      "Activado"
+    ],
+    "action": {
+      "type": "navigate",
+      "route": [
+        "products",
+        "1"
+      ]
+    },
+    "id": "notif-054",
+    "timestamp": "2026-07-06T01:05:20.581Z",
+    "isRead": false
+  },
+  {
+    "type": "confirmed",
+    "title": "Producto descontinuado - Auriculares Inalámbricos Pro",
+    "description": "El producto fue marcado como descontinuado y salió del catálogo activo.",
+    "badges": [
+      "Confirmada",
+      "Descontinuado"
+    ],
+    "action": {
+      "type": "none"
+    },
+    "id": "notif-055",
+    "timestamp": "2026-07-06T01:05:23.091Z",
+    "isRead": false
+  },
+  {
+    "type": "confirmed",
+    "title": "Producto activado - Auriculares Inalámbricos Pro",
+    "description": "El producto pasó a estado 'disponible' y ya aparece en el catálogo.",
+    "badges": [
+      "Confirmada",
+      "Activado"
+    ],
+    "action": {
+      "type": "navigate",
+      "route": [
+        "products",
+        "1"
+      ]
+    },
+    "id": "notif-056",
+    "timestamp": "2026-07-06T01:05:25.776Z",
+    "isRead": false
+  },
+  {
+    "type": "confirmed",
+    "title": "Producto descontinuado - Auriculares Inalámbricos Pro",
+    "description": "El producto fue marcado como descontinuado y salió del catálogo activo.",
+    "badges": [
+      "Confirmada",
+      "Descontinuado"
+    ],
+    "action": {
+      "type": "none"
+    },
+    "id": "notif-057",
+    "timestamp": "2026-07-06T01:05:56.804Z",
+    "isRead": false
+  },
+  {
+    "type": "confirmed",
+    "title": "Producto activado - Auriculares Inalámbricos Pro",
+    "description": "El producto pasó a estado 'disponible' y ya aparece en el catálogo.",
+    "badges": [
+      "Confirmada",
+      "Activado"
+    ],
+    "action": {
+      "type": "navigate",
+      "route": [
+        "products",
+        "1"
+      ]
+    },
+    "id": "notif-058",
+    "timestamp": "2026-07-06T01:05:59.157Z",
+    "isRead": false
+  },
+  {
+    "type": "confirmed",
+    "title": "Producto descontinuado - Auriculares Inalámbricos Pro",
+    "description": "El producto fue marcado como descontinuado y salió del catálogo activo.",
+    "badges": [
+      "Confirmada",
+      "Descontinuado"
+    ],
+    "action": {
+      "type": "none"
+    },
+    "id": "notif-059",
+    "timestamp": "2026-07-06T01:06:01.341Z",
+    "isRead": false
+  },
+  {
+    "type": "confirmed",
+    "title": "Producto activado - Auriculares Inalámbricos Pro",
+    "description": "El producto pasó a estado 'disponible' y ya aparece en el catálogo.",
+    "badges": [
+      "Confirmada",
+      "Activado"
+    ],
+    "action": {
+      "type": "navigate",
+      "route": [
+        "products",
+        "1"
+      ]
+    },
+    "id": "notif-060",
+    "timestamp": "2026-07-06T01:06:03.928Z",
+    "isRead": false
+  },
+  {
+    "type": "confirmed",
+    "title": "Producto descontinuado - Auriculares Inalámbricos Pro",
+    "description": "El producto fue marcado como descontinuado y salió del catálogo activo.",
+    "badges": [
+      "Confirmada",
+      "Descontinuado"
+    ],
+    "action": {
+      "type": "none"
+    },
+    "id": "notif-061",
+    "timestamp": "2026-07-06T01:06:06.828Z",
+    "isRead": false
+  },
+  {
+    "type": "confirmed",
+    "title": "Producto activado - Auriculares Inalámbricos Pro",
+    "description": "El producto pasó a estado 'disponible' y ya aparece en el catálogo.",
+    "badges": [
+      "Confirmada",
+      "Activado"
+    ],
+    "action": {
+      "type": "navigate",
+      "route": [
+        "products",
+        "1"
+      ]
+    },
+    "id": "notif-062",
+    "timestamp": "2026-07-06T01:06:09.369Z",
+    "isRead": false
+  },
+  {
+    "type": "movements",
+    "title": "Recepción confirmada - Auriculares Inalámbricos Pro (Negro)",
+    "description": "Se ingresaron 1 unidades. Stock actual: 41.",
+    "badges": [
+      "Movimiento",
+      "Entrada",
+      "Recepción"
+    ],
+    "action": {
+      "type": "navigate",
+      "route": [
+        "products",
+        "1"
+      ]
+    },
+    "id": "notif-063",
+    "timestamp": "2026-07-06T02:50:23.434Z",
+    "isRead": false
+  },
+  {
+    "type": "movements",
+    "title": "Nuevo producto registrado - Mouse Inalámbrico",
+    "description": "Èl producto fue agregado al catálogo con estado 'disponible'. Marca: Logitech.",
+    "badges": [
+      "Movimiento",
+      "Entrada"
+    ],
+    "action": {
+      "type": "navigate",
+      "route": [
+        "products",
+        "11"
+      ]
+    },
+    "id": "notif-064",
+    "timestamp": "2026-07-16T20:10:50.922Z",
+    "isRead": false
+  },
+  {
+    "type": "confirmed",
+    "title": "Producto descontinuado - Mouse Inalámbrico",
+    "description": "El producto fue marcado como descontinuado y salió del catálogo activo.",
+    "badges": [
+      "Confirmada",
+      "Descontinuado"
+    ],
+    "action": {
+      "type": "none"
+    },
+    "id": "notif-065",
+    "timestamp": "2026-07-17T00:10:43.430Z",
+    "isRead": false
+  },
+  {
+    "type": "movements",
+    "title": "Nueva variante agregada - Mouse Inalámbrico",
+    "description": "Se agregó la variante \"Mouse Inalámbrico\" con 10 unidades iniciales. SKU: LOG-MOU-001.",
+    "badges": [
+      "Movimiento",
+      "Entrada"
+    ],
+    "action": {
+      "type": "navigate",
+      "route": [
+        "products",
+        "11"
+      ]
+    },
+    "id": "notif-066",
+    "timestamp": "2026-07-17T01:35:42.048Z",
+    "isRead": false
+  },
+  {
+    "type": "confirmed",
+    "title": "Producto activado - Mouse Inalámbrico",
+    "description": "El producto pasó a estado 'disponible' y ya aparece en el catálogo.",
+    "badges": [
+      "Confirmada",
+      "Activado"
+    ],
+    "action": {
+      "type": "navigate",
+      "route": [
+        "products",
+        "11"
+      ]
+    },
+    "id": "notif-067",
+    "timestamp": "2026-07-17T01:46:36.497Z",
+    "isRead": false
+  },
+  {
+    "type": "confirmed",
+    "title": "Producto descontinuado - Mouse Inalámbrico",
+    "description": "El producto fue marcado como descontinuado y salió del catálogo activo.",
+    "badges": [
+      "Confirmada",
+      "Descontinuado"
+    ],
+    "action": {
+      "type": "none"
+    },
+    "id": "notif-068",
+    "timestamp": "2026-07-17T01:46:40.971Z",
+    "isRead": false
+  },
+  {
+    "type": "movements",
+    "title": "Nuevo producto registrado - Mouse Inalámbrico",
+    "description": "Èl producto fue agregado al catálogo con estado 'reservado'. Marca: Logitech.",
+    "badges": [
+      "Movimiento",
+      "Entrada"
+    ],
+    "action": {
+      "type": "navigate",
+      "route": [
+        "products",
+        "12"
+      ]
+    },
+    "id": "notif-069",
+    "timestamp": "2026-07-17T02:13:31.983Z",
+    "isRead": false
+  },
+  {
+    "type": "movements",
+    "title": "Nueva variante agregada - Mouse Inalámbrico",
+    "description": "Se agregó la variante \"Negro\" con 15 unidades iniciales. SKU: LOG-MOU-NEG.",
+    "badges": [
+      "Movimiento",
+      "Entrada"
+    ],
+    "action": {
+      "type": "navigate",
+      "route": [
+        "products",
+        "11"
+      ]
+    },
+    "id": "notif-070",
+    "timestamp": "2026-07-17T02:13:31.986Z",
+    "isRead": false
+  },
+  {
+    "type": "movements",
+    "title": "Nueva variante agregada - Mouse Inalámbrico",
+    "description": "Se agregó la variante \"Blanco\" con 8 unidades iniciales. SKU: LOG-MOU-BLA.",
+    "badges": [
+      "Movimiento",
+      "Entrada"
+    ],
+    "action": {
+      "type": "navigate",
+      "route": [
+        "products",
+        "11"
+      ]
+    },
+    "id": "notif-071",
+    "timestamp": "2026-07-17T02:13:31.988Z",
+    "isRead": false
+  },
+  {
+    "type": "warning",
+    "title": "Stock bajo - Mouse Inalámbrico (Blanco)",
+    "description": "La variante LOG-MOU-BLA tiene solo 8 unidades. Punto de reorden recomendado: 10",
+    "badges": [
+      "Alerta",
+      "Stock bajo"
+    ],
+    "action": {
+      "type": "navigate",
+      "route": [
+        "products",
+        "11"
+      ]
+    },
+    "id": "notif-072",
+    "timestamp": "2026-07-17T02:13:31.989Z",
+    "isRead": false
+  },
+  {
+    "type": "movements",
+    "title": "Nueva variante agregada - Mouse Inalámbrico",
+    "description": "Se agregó la variante \"Rosa\" con 3 unidades iniciales. SKU: LOG-MOU-ROS.",
+    "badges": [
+      "Movimiento",
+      "Entrada"
+    ],
+    "action": {
+      "type": "navigate",
+      "route": [
+        "products",
+        "11"
+      ]
+    },
+    "id": "notif-073",
+    "timestamp": "2026-07-17T02:13:31.991Z",
+    "isRead": false
+  },
+  {
+    "type": "warning",
+    "title": "Stock bajo - Mouse Inalámbrico (Rosa)",
+    "description": "La variante LOG-MOU-ROS tiene solo 3 unidades. Punto de reorden recomendado: 10",
+    "badges": [
+      "Alerta",
+      "Stock bajo"
+    ],
+    "action": {
+      "type": "navigate",
+      "route": [
+        "products",
+        "11"
+      ]
+    },
+    "id": "notif-074",
+    "timestamp": "2026-07-17T02:13:31.992Z",
+    "isRead": false
+  },
+  {
+    "type": "movements",
+    "title": "Nueva variante agregada - Mouse Inalámbrico",
+    "description": "Se agregó la variante \"Talla M\" con 20 unidades iniciales. SKU: LOG-MOU-M.",
+    "badges": [
+      "Movimiento",
+      "Entrada"
+    ],
+    "action": {
+      "type": "navigate",
+      "route": [
+        "products",
+        "11"
+      ]
+    },
+    "id": "notif-075",
+    "timestamp": "2026-07-17T02:25:43.855Z",
+    "isRead": false
   }
 ]

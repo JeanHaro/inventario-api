@@ -1,3 +1,4 @@
+import 'dotenv/config';
 import express from 'express';
 import path from 'path';
 import cors from 'cors';
@@ -5,12 +6,13 @@ import cors from 'cors';
 import productsRouter from './routes/products.routes';
 import reportsRouter from './routes/reports.routes';
 import notificationsRouter from './routes/notifications.routes';
+import chatRouter from './routes/chat.routes';
 
 const app = express();
 const PORT = 3002;
 
 // MIDDLEWARES
-app.use(express.json());
+app.use(express.json({ limit: '10mb' }));
 
 // CORS
 app.use(cors());
@@ -19,12 +21,12 @@ app.use(cors());
 app.use('/products', productsRouter);
 app.use('/reports', reportsRouter);
 app.use('/notifications', notificationsRouter);
+app.use('/chat', chatRouter);
 
 // Servir imágenes estáticamente — accesibles desde el navegador
 app.use('/uploads', express.static(
     path.join(__dirname, '../uploads')
 ));
-
 
 // BASE
 app.get('/', ( req: express.Request, res: express.Response ) => {

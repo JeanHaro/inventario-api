@@ -2,12 +2,10 @@
   {
     "nombre": "Auriculares Inalámbricos Pro",
     "marca": "SoundMax",
-    "modelo": "Prueba",
     "precio": 189,
     "descuento": 15,
     "categoria": "electronica",
     "estado": "disponible",
-    "descripcion": "Auriculares Inalámbricos Pro ofrecen una cancelación activa de ruido excepcional, sonido espacial y un estuche con carga inalámbrica",
     "etiquetas": [
       "nuevo",
       "bluetooth",
@@ -22,9 +20,7 @@
         "precioAdicional": 0,
         "id": 1,
         "imagen": "http://localhost:3002/uploads/1783285878763-auriculares-negros.webp",
-        "talla": "",
-        "color": "Negro",
-        "capacidad": ""
+        "color": "Negro"
       },
       {
         "stock": 12,
@@ -33,18 +29,19 @@
         "sku": "SND-AUR-BLA",
         "precioAdicional": 15,
         "id": 2,
-        "talla": "",
         "color": "Blanco Perla",
-        "capacidad": ""
+        "imagen": "http://localhost:3002/uploads/1783304735983-blanco-perla.jpg"
       }
     ],
     "id": 1,
     "creadoEn": "2026-07-05T21:05:20.372Z",
-    "actualizadoEn": "2026-07-05T23:17:08.268Z",
+    "actualizadoEn": "2026-07-17T01:44:11.427Z",
     "imagenes": [
       "http://localhost:3002/uploads/1783287395386-profile.jpg",
-      "http://localhost:3002/uploads/1783287398807-profile-2.jpg"
-    ]
+      "http://localhost:3002/uploads/1783287398807-profile-2.jpg",
+      "http://localhost:3002/uploads/1784252651426-producto-0.jpg"
+    ],
+    "descripcion": "Auriculares Inalámbricos Pro ofrecen una cancelación activa de ruido excepcional, sonido espacial y un estuche con carga inalámbrica"
   },
   {
     "nombre": "Zapatillas Running Velocity",
@@ -69,7 +66,7 @@
         "id": 1,
         "talla": "40",
         "color": "Azul",
-        "capacidad": ""
+        "imagen": "http://localhost:3002/uploads/1783304844747-zapatillas-azul.webp"
       },
       {
         "stock": 0,
@@ -95,13 +92,13 @@
     ],
     "id": 2,
     "creadoEn": "2026-07-05T21:14:52.899Z",
-    "actualizadoEn": "2026-07-05T23:17:26.114Z"
+    "actualizadoEn": "2026-07-17T01:23:26.354Z"
   },
   {
     "nombre": "Cafetera Espresso Automática",
     "marca": "Baristo",
     "modelo": "",
-    "precio": 420,
+    "precio": 450,
     "descuento": 20,
     "categoria": "hogar",
     "estado": "disponible",
@@ -123,7 +120,7 @@
     ],
     "id": 3,
     "creadoEn": "2026-07-05T21:18:41.769Z",
-    "actualizadoEn": "2026-07-05T21:18:57.957Z"
+    "actualizadoEn": "2026-07-17T02:40:42.477Z"
   },
   {
     "nombre": "Mochila Urbana Impermeable",
@@ -377,5 +374,65 @@
     "id": 10,
     "creadoEn": "2026-07-05T21:32:25.117Z",
     "actualizadoEn": "2026-07-05T21:32:48.822Z"
+  },
+  {
+    "nombre": "Mouse Inalámbrico",
+    "marca": "Logitech",
+    "precio": 999,
+    "categoria": "electronica",
+    "estado": "reservado",
+    "variantes": [
+      {
+        "stock": 10,
+        "estado": "disponible",
+        "nombre": "Mouse Inalámbrico",
+        "sku": "LOG-MOU-001",
+        "precioAdicional": 0,
+        "id": 1,
+        "imagen": "http://localhost:3002/uploads/1784254723176-variante.jpg"
+      },
+      {
+        "stock": 15,
+        "estado": "disponible",
+        "nombre": "Negro",
+        "sku": "LOG-MOU-NEG",
+        "precioAdicional": 0,
+        "id": 2,
+        "imagen": "http://localhost:3002/uploads/1784254807399-variante.jpg"
+      },
+      {
+        "stock": 8,
+        "estado": "disponible",
+        "nombre": "Blanco",
+        "sku": "LOG-MOU-BLA",
+        "precioAdicional": 5,
+        "id": 3
+      },
+      {
+        "stock": 3,
+        "estado": "disponible",
+        "nombre": "Rosa",
+        "sku": "LOG-MOU-ROS",
+        "precioAdicional": 5,
+        "id": 4
+      },
+      {
+        "stock": 20,
+        "estado": "disponible",
+        "nombre": "Talla M",
+        "sku": "LOG-MOU-M",
+        "precioAdicional": 0,
+        "id": 5
+      }
+    ],
+    "id": 11,
+    "creadoEn": "2026-07-16T20:10:50.921Z",
+    "actualizadoEn": "2026-07-17T02:25:43.855Z",
+    "imagenes": [
+      "http://localhost:3002/uploads/1784252685364-producto-0.jpg",
+      "http://localhost:3002/uploads/1784252765849-producto-0.jpg"
+    ],
+    "descuento": 0,
+    "etiquetas": []
   }
 ]
